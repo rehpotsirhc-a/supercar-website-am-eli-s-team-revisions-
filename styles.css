@@ -142,11 +142,8 @@ ul li ul li {
     align-items: flex-start;
 }
 
-nav img {
-    margin-top: 15px;
-    margin-left: 11px;
-    width: 80px;
-    height: 80px;
+.trionf {
+
 }
 
 .main-text {
@@ -175,7 +172,7 @@ nav img {
 .contact-margining {
     margin-top: 25px;
     margin-bottom: 5px;
-    margin-left: 200px; 
+    margin-left: 100px; 
     margin-right: 30px;
 }
 
@@ -214,13 +211,13 @@ nav.emblem-logo {
 
 .copyright {
     position: absolute;
-    top: 26%;
+    top: 65%;
     left: 45%;
 }
 
 .privacy-notice {
     position: absolute;
-    top: 26%;
+    top: 65%;
     left: 55%;
     text-decoration: underline;
 }
@@ -231,15 +228,19 @@ li {
 }
 
 .fb-icon {
-    height: 100px;
+    height: 200px;
     width: auto;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-right: 30px;
     padding-top: 15px;
 }
 
 .insta-icon {
-    height: 100px;
+    height: 200px;
     width: auto;
     padding-top: 15px;
+}
+
+section.footer-nav {
+  margin-left: 100px;
 }
