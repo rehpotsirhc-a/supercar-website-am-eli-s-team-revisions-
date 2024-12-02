@@ -1,3 +1,6 @@
+body{
+  background-image: linear-gradient(black, white);
+}
 a {
   text-decoration: none;
 }
@@ -5,12 +8,11 @@ a {
 nav {
   font-family: monospace;
   display: flex;
-  background-color:rgb(40, 38, 35) ;
+  background-color:rgb(0, 0, 0) ;
   border: 0px solid rgb(18, 18, 186);
   flex-direction: row;
   justify-content: center;
   width:100%;
-  
 }
 
 ul {
@@ -39,9 +41,8 @@ svg{
 
 li {
   color: #fff;
-  background: rgb(40, 38, 35);
-  display: block;
-  float: left;
+  background: rgb(0, 0, 0);
+  display: inline-block;
   padding: 1rem;
   position: relative;
   text-decoration: none;
@@ -120,10 +121,173 @@ ul li ul li {
 }
 
 
+[class^="box"] {
+  color:white;
+  font-size: 5px;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+  border: 20px solid white;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+   background:rgba(0, 0, 0, 0.742);
+   border: 2px solid white;
+}
 
 
+.flex-container {
 
+  border:2px solid #0051ff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto ;
+  align-items: center;
+}
 
+/*index CARD 1 */
+.box1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+  justify-content: flex-end;
+}
+
+.title1{
+  height: 40px;
+  border: 0px solid blue;
+  order:0;
+  font-size: 50px;
+  transform: translate(290%,10%);
+}
+
+.para1{
+  height: 100px;
+  border:0px solid blue;
+  order:1;
+  font-size: 35px;
+  transform: translate(-4%,150%);
+}
+
+.img1{
+  order:2;
+  width: 33.3%;
+}
+
+.button1{
+  font-size: 60px;
+  padding:20px;
+  padding-right: 27px;
+  height: 65px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
+  transform:translate(-345%,340%)
+}
+/*index card 1*/
+
+/*index CARD 2 */
+.box2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+  justify-content: flex-start;
+}
+
+.title2{
+  height: 40px;
+  border: 0px solid blue;
+  order:0;
+  font-size: 50px;
+  transform: translate(460%,10%);
+}
+
+.para2{
+  height: 100px;
+  border:0px solid blue;
+  order:1;
+  font-size: 35px;
+  transform: translate(-4%,200%);
+}
+
+.img2{
+  order:0;
+  width: 33.3%;
+}
+/*index card 2*/
+
+/*index CARD 3 */
+.box3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+  justify-content: flex-end;
+}
+
+.title3{
+  height: 40px;
+  border: 0px solid blue;
+  order:0;
+  font-size: 50px;
+  transform: translate(65%,10%);
+}
+
+.para3{
+  height: 100px;
+  border:0px solid blue;
+  order:1;
+  font-size: 35px;
+  transform: translate(-45%,200%);
+}
+
+.img3{
+  order:2;
+  width: 33.3%;
+}
+
+.button3{
+  font-size: 60px;
+  padding:20px;
+  padding-right: 27px;
+  height: 65px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
+  transform:translate(-345%,340%)
+}
+/*index card 3*/
+
+.box4, .box5{
+  margin:20px;
+  width: 700px;
+  height: 300px;
+  font-size: 30px;
+  transform: translate(10%,-55%);
+}
+
+.box6, .box7{
+  margin:20px;
+  width: 700px;
+  height: 300px;
+  font-size: 30px;
+  transform: translate(114.5%,-110%);
+}
+
+.car3{
+  transform: translate(10%, 4.8%)
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Kablammo&family=Kavivanar&family=Shadows+Into+Light&family=Smooch&display=swap');
 
@@ -211,13 +375,13 @@ nav.emblem-logo {
 
 .copyright {
     position: absolute;
-    top: 65%;
+    top: 125%;
     left: 45%;
 }
 
 .privacy-notice {
     position: absolute;
-    top: 65%;
+    top: 125%;
     left: 55%;
     text-decoration: underline;
 }
@@ -243,4 +407,8 @@ li {
 
 section.footer-nav {
   margin-left: 100px;
+}
+
+footer{
+  margin-top: auto
 }
