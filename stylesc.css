@@ -136,8 +136,7 @@ ul li ul li {
 
 
 .flex-container {
-
-  border:2px solid #0051ff;
+  border:0px solid #0051ff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -187,6 +186,15 @@ ul li ul li {
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
   transform:translate(-345%,340%)
+}
+.button7{
+  font-size: 30px;
+  padding:20px;
+  padding-right: 27px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
+  transform: translate(0%,60%);
 }
 /*index card 1*/
 
@@ -271,22 +279,29 @@ ul li ul li {
 
 .box4, .box5{
   margin:20px;
-  width: 700px;
+  width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(10%,-55%);
+  transform: translate(20%,-47.9%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 
 .box6, .box7{
   margin:20px;
-  width: 700px;
+  width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(114.5%,-110%);
+  transform: translate(154%,-96%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .car3{
-  transform: translate(10%, 4.8%)
+  transform: translate(12%, 4.8%)
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Kablammo&family=Kavivanar&family=Shadows+Into+Light&family=Smooch&display=swap');
@@ -411,4 +426,58 @@ section.footer-nav {
 
 footer{
   margin-top: auto
+}
+
+.flex-container-nemisis{
+  display: flex;
+  flex-direction: row;
+  border: 0px solid blue;
+  background-color: rgba(0, 0, 0, 0.468);
+  padding:20px;
+}
+
+.box1n{
+  border: 0px solid white;
+  margin:20px;
+  width: 500px;
+  height: 00px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title1n{
+  transform: translate(60%,0%);
+}
+
+.para1n{ 
+
+  border: 0px solid blue;
+  width: 900px;
+  height: 500px;
+  transform: translate(23%);
+}
+
+.flex-container-nemesis2{
+  margin-top:20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid blue;
+  background-color: rgba(0, 0, 0, 0.468);
+  padding:20px;
+  align-items: center;
+}
+
+.title2n{
+font-size: 60px;
+color: white;
+align-content: f;
+}
+
+.para2n{ 
+
+  border: 0px solid blue;
+
+
 }

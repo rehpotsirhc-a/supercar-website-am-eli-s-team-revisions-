@@ -247,8 +247,11 @@ a {
   
   h2 {
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
+    color: white;
   }
+
+
 
 .container {
   display: flex;
@@ -283,8 +286,8 @@ a {
 
   
 .box-1 p{
-  margin-top: 20em;
-  margin-bottom: 7em;
+  margin-top: 18em;
+  margin-bottom: 3em;
   color: white;
 }
 
@@ -303,8 +306,8 @@ a {
 }
 
 .box-2 p{
-  margin-top: 20em;
-  margin-bottom: 7em;
+  margin-top: 18em;
+  margin-bottom: 3em;
   color: white;
 }
 
@@ -326,3 +329,20 @@ body{
   background: linear-gradient(black, grey);
 }
 
+.model{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bl{
+  color: white;
+  font-size: xx-large;
+  margin-left: 1em;
+}
+
+.nem{
+  color: white;
+  font-size: xx-large;
+  margin-right: 2em;
+}
