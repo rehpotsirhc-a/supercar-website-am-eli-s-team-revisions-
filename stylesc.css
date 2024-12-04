@@ -1,125 +1,125 @@
-body{
-  background-image: linear-gradient(black, white);
-}
 a {
-  text-decoration: none;
-}
-
-nav {
-  font-family: monospace;
-  display: flex;
-  background-color:rgb(0, 0, 0) ;
-  border: 0px solid rgb(18, 18, 186);
-  flex-direction: row;
-  justify-content: center;
-  width:100%;
-}
-
-ul {
-  background: rgb(40, 38, 35, 0);
-  list-style: none;
-  margin: 0;
-  padding-top: 6px;
-  transform: translate(-0%, -0%)
-}
-
-.trionl{
-  margin-top:3px;
-
-}
-
-
-svg{
-  margin-right: 15px
-}
-.cart, .acc{
-
-  margin-top:6px;
-
-}
-
-
-li {
-  color: #fff;
-  background: rgb(0, 0, 0);
-  display: inline-block;
-  padding: 1rem;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
-  font-size: 20px;
-}
+    text-decoration: none;
+  }
   
-li a {
-  color: #fff;
-}
-
-li:hover,
-li:focus-within {
-  background: rgb(186, 186, 186);
-}
-
-ul li ul {
-  background: rgb(40, 38, 35);
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-  top:0;
-}
-
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
-  visibility: visible;
-  opacity: 1;
-  display: block
-}
-
-ul li ul li {
-  width: 111%;
-  font-size: 20px;
-  transform: translate(-26%, -0%);
-  z-index: 9999;
-}
-.dropdown{
-  position:absolute;
-  background: rgb(121, 121, 121, 0);
-  margin-top: 53px;
-}
-
-
-@media screen and (min-width:2000px) and (max-width:2100px){
+  nav {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    border: 0px solid rgb(18, 18, 186);
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+  }
 
   ul {
-
-      transform: translate(-25%, -0%)
-  
+    background: rgb(40, 38, 35, 0);
+    list-style: none;
+    margin: 0;
+    padding-top: 6px;
+    transform: translate(-0%, -0%)
   }
   
   .trionl{
-
-      transform: translate(-200%, -0%)
+    margin-top:3px;
+  
   }
-
+  
+  
+  svg{
+    margin-right: 15px
+  }
   .cart, .acc{
   
-
-      transform: translate(1150%, -0%);
+    margin-top:6px;
+  
+  }
+  
+  
+  li {
+    color: #fff;
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 20px;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+    background: rgb(186, 186, 186);
+  }
+  
+  ul li ul {
+    background: rgb(40, 38, 35);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    top:0;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
   }
   
   ul li ul li {
-      width: 111%;
-      font-size: 20px;
-      transform: translate(-2%, -0%);
+    width: 111%;
+    font-size: 20px;
+    transform: translate(-26%, -0%);
+    z-index: 9999;
   }
-}
+  .dropdown{
+    position:absolute;
+    background: rgb(121, 121, 121, 0);
+    margin-top: 53px;
+  }
+  
+  
+  @media screen and (min-width:2000px) and (max-width:2100px){
+  
+    ul {
+  
+        transform: translate(-25%, -0%)
+    
+    }
+    
+    .trionl{
+  
+        transform: translate(-200%, -0%)
+    }
+  
+    .cart, .acc{
+    
+  
+        transform: translate(1150%, -0%);
+    }
+    
+    ul li ul li {
+        width: 111%;
+        font-size: 20px;
+        transform: translate(-2%, -0%);
+    }
+  }
 
+body{
+  background: linear-gradient(black, grey);
+}
 
 [class^="box"] {
   color:white;
@@ -161,7 +161,7 @@ ul li ul li {
   border: 0px solid blue;
   order:0;
   font-size: 50px;
-  transform: translate(290%,10%);
+  transform: translate(230%,10%);
 }
 
 .para1{
@@ -179,22 +179,22 @@ ul li ul li {
 
 .button1{
   font-size: 60px;
-  padding:20px;
-  padding-right: 27px;
-  height: 65px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 87px;
   order:1;
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
-  transform:translate(-345%,340%)
+  transform:translate(-345%,460%)
 }
 .button7{
   font-size: 30px;
-  padding:20px;
-  padding-right: 27px;
+  padding:15px;
+  padding-right: 22px;
   order:1;
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
-  transform: translate(0%,60%);
+  transform: translate(0%,30%);
 }
 /*index card 1*/
 
@@ -215,7 +215,7 @@ ul li ul li {
   border: 0px solid blue;
   order:0;
   font-size: 50px;
-  transform: translate(460%,10%);
+  transform: translate(430%,10%);
 }
 
 .para2{
@@ -267,13 +267,13 @@ ul li ul li {
 
 .button3{
   font-size: 60px;
-  padding:20px;
-  padding-right: 27px;
-  height: 65px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 80px;
   order:1;
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
-  transform:translate(-345%,340%)
+  transform:translate(-345%,420%)
 }
 /*index card 3*/
 
@@ -300,6 +300,14 @@ ul li ul li {
   flex-direction: column;
 }
 
+.para6{
+  transform:translate(8%,0%);
+}
+
+.para5{
+  transform:translate(8%,0%);
+}
+
 .car3{
   transform: translate(12%, 4.8%)
 }
@@ -310,6 +318,7 @@ ul li ul li {
   border: 0px solid blue;
   background-color: rgba(0, 0, 0, 0.468);
   padding:20px;
+  height: 650px;
 }
 
 .box1n{
@@ -324,7 +333,7 @@ ul li ul li {
 }
 
 .title1n{
-  transform: translate(60%,0%);
+  transform: translate(60%,-100%);
 }
 
 .para1n{ 
@@ -332,28 +341,60 @@ ul li ul li {
   border: 0px solid blue;
   width: 900px;
   height: 500px;
-  transform: translate(23%);
+  transform: translate(23%,-20%);
 }
 
 .flex-container-nemesis2{
-  margin-top:20px;
+  margin:60px;
+  width: 60%;
+  height:300px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border: 1px solid blue;
-  background-color: rgba(0, 0, 0, 0.468);
+  background-color: rgba(0, 0, 0, 0.652);
   padding:20px;
+  justify-self: center;
+  justify-content: center;
   align-items: center;
 }
 
 .title2n{
 font-size: 60px;
 color: white;
-align-content: f;
+transform: translate(-50%,20%);
 }
 
 .para2n{ 
 
   border: 0px solid blue;
+}
 
+.ext{
+  color:white;
+  font-size: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 88px;
+  margin-bottom: 20px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
+  transform: translate(160%,-70%);
 
+}
+.int{
+  color:white;
+  font-size: 60px;
+  padding-right: 21px;
+  padding-left: 21px;
+  height: 88px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
+  transform: translate(160%,-70%);
+
+}
+
+a{
+  color: white;
 }
