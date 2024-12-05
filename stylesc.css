@@ -6,7 +6,7 @@ a {
     font-family: "Jost", sans-serif;
     display: flex;
     background-color:rgb(0, 0, 0) ;
-    border: 0px solid rgb(18, 18, 186);
+    border-bottom: 1px solid rgb(255, 255, 255);
     flex-direction: row;
     justify-content: center;
     width:100%;
@@ -26,7 +26,7 @@ a {
   }
   
   
-  svg{
+  .cart{
     margin-right: 15px
   }
   .cart, .acc{
@@ -336,12 +336,16 @@ body{
   transform: translate(60%,-100%);
 }
 
+.titlenn{
+  transform: translate(73%,-100%);
+}
+
 .para1n{ 
 
   border: 0px solid blue;
   width: 900px;
   height: 500px;
-  transform: translate(23%,-20%);
+  transform: translate(23%,-10%);
 }
 
 .flex-container-nemesis2{
@@ -350,7 +354,7 @@ body{
   height:300px;
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
+  border: 0px solid blue;
   background-color: rgba(0, 0, 0, 0.652);
   padding:20px;
   justify-self: center;
@@ -385,8 +389,8 @@ transform: translate(-50%,20%);
 .int{
   color:white;
   font-size: 60px;
-  padding-right: 21px;
-  padding-left: 21px;
+  padding-right: 25px;
+  padding-left: 25px;
   height: 88px;
   order:1;
   border:1px solid white;
@@ -545,28 +549,157 @@ h4 {
 .flex-container-contact{
   border:1px solid blue;
   display:flex;
-  flex-direction: row;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   color:white;
   flex-wrap: wrap;
-  width:700px;
   justify-self: center;
   align-self: center;
 }
 
 .contact{
+  font-size: 40px;
+
   order:0
 }
 
+.email{
+  font-size:30px;
+  order:2;
+}
+
 .social{
-  order:1
+  order:1;
+  font-size:30px;
+
 }
 
 .phone{
-  order:1
+  order:1;
+  font-size:30px;
 }
 
 .insta{
-  order:1
+  font-size:30px;
+  order:2
+}
+
+.create{
+  order: 3;
+  font-size:30px
+}
+
+.flex-container-ab {
+  border:1px solid #0051ff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto ;
+}
+
+.boxab1 {
+  border:1px solid white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+  align-items: center;
+}
+
+.titleab1{
+  font-size: 50px;
+}
+
+.paraab1{
+  width: 90%;
+  font-size: 30px;
+}
+
+.boxab2 {
+  border:1px solid white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+  justify-content: flex-end;
+}
+
+.titleab2{
+  height: 40px;
+  width: 2000px;
+  border: 0px solid blue;
+  order:0;
+  font-size: 50px;
+  transform: translate(80%,0%);
+}
+
+.paraab2{
+  height: 100px;
+  border:0px solid blue;
+  order:1;
+  font-size: 40px;
+  transform: translate(-30%,180%);
+}
+
+.imgab2{
+  order:2;
+  width: 33.3%;
+}
+
+.theteam{
+  display:flex;
+  border:0px solid blue;
+  flex-direction:row;
+  justify-content: center;
+  width: 98.3vw;
+  transform: translate(4%,0%);
+}
+
+.brentjohnson{
+  order:1;
+  display:flex;
+  border:0px solid blue;
+  flex-direction: row;
+  width:40%;
+  height: 35%;
+  margin: 20px;
+
+}
+
+.brj{
+  font-size: 40px;
+  border:0px solid blue;
+  height: 100px;
+  color:white;
+  width: 100px;
+  transform: translate(20%,-30%);
+}
+
+.brji{
+  width: 400px;
+}
+
+.brjt{
+  border:0px solid blue;
+  font-size:25px;
+  height:90px;
+  transform: translate(-22%,110%);
+  color:white;
+  width: 500px;
+}
+
+.brjt1{
+  border:0px solid blue;
+  font-size:25px;
+  height:90px;
+  transform: translate(-16%,110%);
+  color:white;
+  width: 500px;
 }
