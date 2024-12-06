@@ -343,18 +343,14 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .box-1 a{
+  
+  button.my-button {
+    margin-top: 750px;
+    background-color: rgb(180, 158, 158);
+    padding: 15px 75px;
+    border-radius: 2px;
+    text-decoration: none;
     color: white;
-  }
-
-  .box-2 a{
-    color: white;
-  }
-
-  .box-3 a{
-    color: white;
-  }
-
-
+    font-size: x-large;
+}
 
