@@ -267,101 +267,11 @@ a {
       align-items: flex-start;
   }
 
-
-
-.container {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  font-size: xx-large;
-
- 
-}
-
-  .box-1 {
-    width: 800px;
-    height: 1000px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    background: url(blackw.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
+  body{
+    background: linear-gradient(black, grey);
   }
 
-  .box-2 {
-    width: 800px;
-    height: 1000px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
+
+.hero-image{
     background: url(trion-nemesis.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  
-.box-1 p{
-  margin-top: 18em;
-  margin-bottom: 3em;
-  color: white;
-}
-
-.box-1 a{
-  background-color: rgb(180, 158, 158);
-  padding: 15px 75px;
-  border-radius: 2px;
-  text-decoration: none;
-  color: white;
-}
-
-.box-1 a:hover{
-  background-color: black;
-  transition: ease .25s;
-  color: rgb(180, 158, 158);
-}
-
-.box-2 p{
-  margin-top: 18em;
-  margin-bottom: 3em;
-  color: white;
-}
-
-.box-2 a{
-  background-color: rgb(180, 158, 158);
-  padding: 15px 75px;
-  border-radius: 2px;
-  text-decoration: none;
-  color: white;
-}
-
-.box-2 a:hover{
-  background-color: black;
-  transition: ease .25s;
-  color: rgb(180, 158, 158);
-}
-
-body{
-  background: linear-gradient(black, grey);
-}
-
-.model{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.bl{
-  color: white;
-  font-size: xx-large;
-  margin-left: 1em;
-}
-
-.nem{
-  color: white;
-  font-size: xx-large;
-  margin-right: 2em;
-}
-a{
-  color: white;
 }
