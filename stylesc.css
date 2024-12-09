@@ -3,7 +3,6 @@ a {
   }
   
   nav {
-    font-family: "Jost", sans-serif;
     display: flex;
     background-color:rgb(0, 0, 0) ;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -312,6 +311,12 @@ body{
   transform: translate(12%, 4.8%)
 }
 
+.car5{
+  border: 1px solid white;
+}
+
+
+
 .flex-container-nemisis{
   display: flex;
   flex-direction: row;
@@ -354,12 +359,13 @@ body{
   height:300px;
   display: flex;
   flex-direction: column;
-  border: 0px solid blue;
+  border: 1px solid white;
   background-color: rgba(0, 0, 0, 0.652);
   padding:20px;
   justify-self: center;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
 }
 
 .title2n{
@@ -369,8 +375,10 @@ transform: translate(-50%,20%);
 }
 
 .para2n{ 
-
+  color:white;
+  transform:translate(-35%,200%);
   border: 0px solid blue;
+  font-size:30px;
 }
 
 .ext{
@@ -403,15 +411,6 @@ a{
   color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Kablammo&family=Kavivanar&family=Shadows+Into+Light&family=Smooch&display=swap');
-  
-* {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-  
 .emblem-logo {
     display: flex;
     border-top: 1px white solid;
@@ -583,7 +582,7 @@ h4 {
 }
 
 .flex-container-ab {
-  border:1px solid #0051ff;
+  border:0px solid #0051ff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -694,4 +693,199 @@ h4 {
   transform: translate(-16%,110%);
   color:white;
   width: 500px;
+}
+
+.brjt2{
+border:0px solid blue;
+font-size:25px;
+height:90px;
+transform: translate(-187%,90%);
+color:white;
+width: 500px;
+}
+
+
+.theproducts{
+display:flex;
+border:1px solid rgb(255, 255, 255);
+flex-direction:row;
+justify-content: center;
+width: 98.3vw;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.product{
+order:1;
+display:flex;
+border:1px solid rgb(255, 255, 255);
+flex-direction: column;
+width:25%;
+padding-top:20px;
+padding-bottom:20px;
+height: 35%;
+margin: 20px;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.744);
+border-radius: 4px;
+}
+
+.productname{
+font-size: 40px;
+border:0px solid blue;
+color:white;
+}
+
+.productimg{
+width: 400px;
+}
+
+.buybutton{
+justify-content: space-between;
+border:1px solid rgb(255, 255, 255);
+font-size:40px;
+padding: 8px;
+background-color:rgba(29, 29, 29, 0.814);
+color:white;
+border-radius: 3px;
+transition-duration: 0.2s;
+}
+
+.buybutton:hover, .buybutton:focus-within {
+  background-color: rgb(186, 186, 186);
+}
+
+.boxprod {
+border:0px solid white;
+display: flex;
+flex-direction: column;
+margin-top: 30px; 
+align-items: center;
+}
+
+.prodtit{
+font-size: 50px;
+}
+
+.theproducts-spec{
+display:flex;
+border: 1px solid rgb(255, 255, 255);
+flex-direction:row;
+justify-content: center;
+width: 1550px;
+height: 700px;
+justify-content: space-evenly;
+flex-wrap: nowrap;
+border-radius: 4px;
+background-color: rgba(0, 0, 0, 0.388);
+align-self: center;
+margin:40px;
+margin-bottom:120px
+}
+
+.godherospec{
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.products{
+order:1;
+display:flex;
+border:0px solid rgb(255, 255, 255);
+flex-direction: column;
+width:25%;
+padding-top:20px;
+padding-bottom:20px;
+height: 35%;
+margin: 20px;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.744);
+border-radius: 4px;
+}
+
+.productdetails{
+display:flex;
+order:1;
+border: 0px solid blue;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+width: 900px;
+font-size:25px;
+}
+
+.productnames{
+order:0;
+font-size: 80px;
+border:0px solid blue;
+color:white;
+margin:1px
+}
+
+.desc{
+color:white;
+margin:20px
+}
+
+.productimgs{
+order:0;
+display:flex;
+border: 0px solid blue;
+width: 700px;
+margin:50px;
+background-color: 10px solid black;
+}
+
+.buybuttons{
+order:1;
+justify-content: space-between;
+border:1px solid rgb(255, 255, 255);
+font-size:20px;
+padding: 8px;
+background-color:rgba(29, 29, 29, 0.814);
+color:white;
+border-radius: 3px;
+transition-duration: 0.2s;
+margin:5px;
+width: 200px;
+}
+
+.buybuttons:hover, .buybuttons:focus-within {
+  background-color: rgb(186, 186, 186);
+}
+.extraproducts{
+  border:0px solid blue;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow-x: scroll;
+}
+
+.extrap1{
+  border:1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin:20px;
+  padding:20px;
+  background-color: rgba(0, 0, 0, 0.768) ;
+  color:white;
+  border-radius: 4px;
+}
+
+.extraprodimg1{
+  width: 500px;
+}
+
+.extrap1n{
+  font-size:40px;
+}
+
+* {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

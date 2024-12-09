@@ -335,5 +335,59 @@ a.config-text {
 }
 
 .getaway {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+}
+
+.getback {
+    margin-bottom: 70px;
+}
+
+.flexicusboxicus {
+    display: flex;
+    font-size: 1.7rem;
+    flex-wrap: wrap;
+}
+
+.configy-texty {
+    max-width: 750px;
+    margin-left: 150px;
+    margin-top: 22px;
+}
+
+a.configy-texty {
+    border: 1px solid white;
+    padding: 40px 160px 40px 160px;
+    background: black;
+    max-height: 34px;
+}
+
+.interiorious {
+    display: inline-block;
+    font-size: 50px;
+    border: 1px solid white;
+    padding: 20px 190px;
+    background: black;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.exteriorious {
+    display: inline-block;
+    font-size: 50px;
+    border: 1px solid white;
+    padding: 20px 185px;
+    background: black;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.widowcent {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.nemcent {
+    margin: 0;
+    font-size: 2.8rem;
 }
