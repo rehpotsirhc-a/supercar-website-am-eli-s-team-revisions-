@@ -424,7 +424,8 @@ a{
 .trionf {
     max-width: fit-content;
     margin-top: 25px;
-    margin-left: 104px;
+    margin-left: 0px;
+    margin-bottom: 20px;
 }
   
 .main-text {
@@ -433,10 +434,6 @@ a{
     padding-left: 10px;
     padding-right: 120px;
     font-size:3.5rem;
-}
-
-.trionf {
-    margin-bottom: 20px;
 }
   
 .footer-nav {
