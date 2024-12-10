@@ -90,8 +90,8 @@ ul li ul li {
 }
 
 
-@media screen and (min-width:2000px) and (max-width:2100px){
-
+@media screen and (min-width:1700px) and (max-width:20000px){
+  
   ul {
 
       transform: translate(-25%, -0%)
@@ -100,13 +100,13 @@ ul li ul li {
   
   .trionl{
 
-      transform: translate(-200%, -0%)
+      transform: translate(-240%, -0%)
   }
 
   .cart, .acc{
   
 
-      transform: translate(1150%, -0%);
+      transform: translate(1350%, -0%)
   }
   
   ul li ul li {
@@ -280,23 +280,25 @@ ul li ul li {
   .box-1 {
     width: 800px;
     height: 1000px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
     background: url(.vscode/pictures/blackw.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: rgba(0, 0, 0, 0.425);
   }
 
   .box-2 {
     width: 800px;
     height: 1000px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
     background: url(.vscode/pictures/trion-nemesis.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: rgba(0, 0, 0, 0.425);
   }
 
   
@@ -307,17 +309,19 @@ ul li ul li {
 }
 
 .box-1 a{
-  background-color: rgb(180, 158, 158);
+  background-color: rgb(0, 0, 0);
   padding: 15px 75px;
   border-radius: 2px;
   text-decoration: none;
   color: white;
+  border: 1px solid white
 }
 
 .box-1 a:hover{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transition: ease .25s;
-  color: rgb(180, 158, 158);
+  color: rgb(0, 0, 0);
+
 }
 
 .box-2 p{
@@ -327,17 +331,18 @@ ul li ul li {
 }
 
 .box-2 a{
-  background-color: rgb(180, 158, 158);
+  background-color: rgb(0, 0, 0);
   padding: 15px 75px;
   border-radius: 2px;
   text-decoration: none;
   color: white;
+  border: 1px solid white
 }
 
 .box-2 a:hover{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transition: ease .25s;
-  color: rgb(180, 158, 158);
+  color: rgb(0, 0, 0);
 }
 
 body{

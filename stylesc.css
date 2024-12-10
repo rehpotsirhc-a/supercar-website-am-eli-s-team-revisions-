@@ -90,7 +90,7 @@ a {
   }
   
   
-  @media screen and (min-width:2000px) and (max-width:2100px){
+  @media screen and (min-width:1700px) and (max-width:20000px){
   
     ul {
   
@@ -100,13 +100,13 @@ a {
     
     .trionl{
   
-        transform: translate(-200%, -0%)
+        transform: translate(-240%, -0%)
     }
   
     .cart, .acc{
     
   
-        transform: translate(1150%, -0%);
+        transform: translate(1350%, -0%)
     }
     
     ul li ul li {
@@ -179,12 +179,12 @@ body{
 .button1{
   font-size: 60px;
   padding-left: 15px;
-  padding-right: 15px;
-  height: 87px;
+  padding-right: 19px;
+  height: 75px;
   order:1;
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
-  transform:translate(-345%,460%)
+  transform:translate(-360%,500%)
 }
 .button7{
   font-size: 30px;
@@ -248,7 +248,7 @@ body{
   border: 0px solid blue;
   order:0;
   font-size: 50px;
-  transform: translate(65%,10%);
+  transform: translate(180%,10%);
 }
 
 .para3{
@@ -256,12 +256,12 @@ body{
   border:0px solid blue;
   order:1;
   font-size: 35px;
-  transform: translate(-45%,200%);
+  transform: translate(-19%,190%);
 }
 
 .img3{
   order:2;
-  width: 33.3%;
+  width: 45%;
 }
 
 .button3{
@@ -272,7 +272,7 @@ body{
   order:1;
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
-  transform:translate(-345%,420%)
+  transform:translate(-318%,420%)
 }
 /*index card 3*/
 
@@ -281,7 +281,7 @@ body{
   width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(20%,-47.9%);
+  transform: translate(46.5%,-47.9%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -293,7 +293,7 @@ body{
   width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(154%,-96%);
+  transform: translate(180%,-96%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -308,14 +308,16 @@ body{
 }
 
 .car3{
-  transform: translate(12%, 4.8%)
+  transform: translate(27%, 4.8%)
 }
 
 .car5{
   border: 1px solid white;
 }
 
-
+.car4{
+  border-bottom: 1px solid white;
+}
 
 .flex-container-nemisis{
   display: flex;
@@ -699,7 +701,7 @@ h4 {
 border:0px solid blue;
 font-size:25px;
 height:90px;
-transform: translate(-187%,90%);
+transform: translate(-22%,110%);
 color:white;
 width: 500px;
 }
@@ -888,4 +890,24 @@ width: 200px;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.locationpage{
+  display:flex;
+  flex-direction: row;
+}
+
+.locationdetails{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color:white;
+  margin: 10px;
+  justify-content: space-between;
+  border: 0px solid white;
+  width: 50%;
+  height: 80vh;
+  align-items: center;
+  font-size: 30px;
+  transform: translate(0%,-20%);
 }

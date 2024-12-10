@@ -91,7 +91,7 @@ a {
   }
   
   
-  @media screen and (min-width:2000px) and (max-width:2100px){
+  @media screen and (min-width:1700px) and (max-width:20000px){
   
     ul {
   
@@ -101,13 +101,13 @@ a {
     
     .trionl{
   
-        transform: translate(-200%, -0%)
+        transform: translate(-240%, -0%)
     }
   
     .cart, .acc{
     
   
-        transform: translate(1150%, -0%);
+        transform: translate(1350%, -0%)
     }
     
     ul li ul li {
@@ -116,7 +116,6 @@ a {
         transform: translate(-2%, -0%);
     }
   }
-  
   
   
   
