@@ -322,6 +322,7 @@ ul li ul li {
   transition: ease .25s;
   color: rgb(0, 0, 0);
 
+
 }
 
 .box-2 p{
@@ -338,6 +339,7 @@ ul li ul li {
   color: white;
   border: 1px solid white
 }
+
 
 .box-2 a:hover{
   background-color: rgb(255, 255, 255);
