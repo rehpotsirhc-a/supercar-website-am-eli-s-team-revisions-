@@ -286,9 +286,10 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionhats.png);
+    background: url(.vscode/pictures/womenhat.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 30%;
   }
 
 
@@ -300,9 +301,10 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionshirts.png);
+    background: url(.vscode/pictures/womenshirt.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 30%;
   }
 
   .box-3 {
@@ -312,10 +314,10 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionjackets.png);
+    background: url(.vscode/pictures/womenjacket.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 75%;
+    background-position: 65%;
   }
 
   .box-4 {
@@ -325,9 +327,10 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionhoodies.png);
+    background: url(.vscode/pictures/womenhoodie.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
   }
   
   button.my-button {

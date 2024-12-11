@@ -192,30 +192,50 @@ h4 {
     height: 800px;
 }
 
-.fexbox {
+.container {
     border: 1px solid white;
+    border-bottom: none;
 }
 
 .bx1 {
-    border: 1px solid white;
+    display: inline-block;
+    padding: 75px 78px 75px 78px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     background-color: black;
     width: fit-content;
 }
 
 .bx2 {
-    border: 1px solid white;
+    display: inline-block;
+    padding: 75px 87px 75px 87px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     background-color: black;
     width: fit-content;
 }
 
 .bx3 {
-    border: 1px solid white;
+    display: inline-block;
+    padding: 75px 58px 75px 58px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     background-color: black;
     width: fit-content;
 }
 
 .bx4 {
-    border: 1px solid white;
+    display: inline-block;
+    padding: 75px 98.5px 75px 98.5px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     background-color: black;
     width: fit-content;
 }
@@ -223,17 +243,149 @@ h4 {
 .bx5 {
     display: inline-block;
     padding: 75px 75px 75px 75px;
-    border: 1px solid white;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     background-color: black;
     width: fit-content; 
 }
 
 .fin {
     display: inline-block;
-    margin-top: 10;
+    margin-left: 103px;
     padding: 30px 100px 30px 100px;
     font-size: 3rem;
     border: 1px solid white;
     background-color: black;
     width: fit-content;
+}
+
+.boox1 {
+    display: inline-block;
+    padding: 75px 78px 75px 78px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+    width: fit-content;
+}
+
+.boox2 {
+    display: inline-block;
+    padding: 75px 55.5px 75px 55.5px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+    width: fit-content;
+}
+
+.boox3 {
+    display: inline-block;
+    padding: 75px 69.5px 75px 69.5px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+    width: fit-content;
+}
+
+.boox4 {
+    display: inline-block;
+    padding: 75px 54px 75px 54px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+    width: fit-content;
+}
+
+.boox5 {
+    display: inline-block;
+    padding: 75px 82px 75px 82px;
+    margin-left: 30px;
+    font-size: 3rem;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+    width: fit-content; 
+}
+
+.fiin {
+    display: inline-block;
+    margin-left: 103px;
+    padding: 30px 100px 30px 100px;
+    font-size: 3rem;
+    border: 1px solid white;
+    background-color: black;
+    width: fit-content;
+}
+
+.bex1 {
+
+}
+
+.bex2 {
+
+}
+
+.bex3 {
+
+}
+
+.bex4 {
+
+}
+
+.bex5 {
+
+}
+
+
+.bex6 {
+
+}
+
+.bex7 {
+
+}
+
+.bex8 {
+
+}
+
+.bex9 {
+
+}
+
+.bex10 {
+
+}
+
+.bex11 {
+
+}
+
+.bex12 {
+
+}
+
+.fini {
+
+}
+
+.butt {
+
+}
+
+.rthi {
+
+}
+
+#bigolguy {
+    
 }
