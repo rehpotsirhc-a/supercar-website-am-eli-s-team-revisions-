@@ -326,60 +326,125 @@ h4 {
 }
 
 .bex1 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-left: none;
+    border-top: none;
+    background-color: rgb(184, 0, 0);
+    padding: 40px 104px;
 }
 
 .bex2 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-top: none;
+    background-color: rgb(214, 139, 0);
+    padding: 40px 91px;
 }
 
 .bex3 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-top: none;
+    background-color: rgb(194, 194, 0);
+    padding: 40px 95.6px;
 }
 
 .bex4 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-top: none;
+    background-color: green;
+    padding: 40px 95.5px;
 }
 
 .bex5 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-top: none;
+    background-color: rgb(56, 0, 168);
+    padding: 40px 102.15px;
 }
 
-
-.bex6 {
-
+.bex6 { 
+    display: inline-block;
+    border: 1px solid white;
+    border-top: none;
+    background-color: rgb(149, 2, 194);
+    padding: 40px 95.1px;
 }
 
 .bex7 {
-
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-left: none;
+    border-bottom: none;
+    background-color: rgb(104, 81, 13);
+    padding: 40px 96.19px;
 }
 
 .bex8 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-bottom: none;
+    background-color: rgb(217, 0, 199);
+    padding: 40px 102.6px;
 }
 
 .bex9 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-bottom: none;
+    background-color: rgb(0, 0, 0);
+    padding: 40px 99.285px;
 }
 
-.bex10 {
+/* GET SIZES PERFECT */
 
+.bex10 {
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    background-color: rgb(107, 107, 107);
+    padding: 40px 100px;
+    color: black;
 }
 
 .bex11 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-bottom: none;
+    background-color: rgb(199, 165, 53);
+    padding: 40px 100px;
 }
 
 .bex12 {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-bottom: none;
+    background-color: rgb(172, 172, 172);
+    padding: 40px 100px;
 }
 
 .fini {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-right: none;
+    background-color: black;
+    padding: 40px 100px;
+    font-size: 2.5rem;
+    margin-top: 38px;
 }
 
 .butt {
-
+    display: inline-block;
+    border: 1px solid white;
+    border-left: none;
+    background-color: black;
+    padding: 30px 80px;
+    font-size: 2.3rem;
+    margin-right: 12px;
 }
 
 .rthi {
@@ -387,5 +452,16 @@ h4 {
 }
 
 #bigolguy {
-    
+    display: flex;
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+.contained {
+    border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    max-width: 1469px;
 }

@@ -312,9 +312,10 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/);
+    background: url(.vscode/pictures/childjacket.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
   }
 
   .box-4 {
