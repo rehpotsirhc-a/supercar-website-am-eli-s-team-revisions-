@@ -134,149 +134,139 @@ a {
   }
     
   .emblem-logo {
-    display: flex;
-    border-top: 1px white solid;
-    background-color: black;
-    color: white;
-    align-items: flex-start;
-    flex-wrap: wrap;
+      display: flex;
+      border-top: 1px white solid;
+      background-color: black;
+      color: white;
+      align-items: flex-start;
+      flex-wrap: wrap;
+  }
+    
+  .trionf {
+      max-width: fit-content;
+      margin-top: 25px;
+      margin-left: 104px;
+  }
+    
+  .main-text {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      padding-left: 10px;
+      padding-right: 120px;
+      font-size:3.5rem;
   }
   
   .trionf {
-    max-width: fit-content;
-    margin-top: 25px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+      margin-bottom: 20px;
   }
-  
-  .main-text {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 120px;
-    font-size:3.5rem;
-  }
-  
+    
   .footer-nav {
-    max-width: fit-content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    font-size: 2.2rem;
+      max-width: fit-content;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-decoration: none;
+      font-size: 2.2rem;
   }
   
   .margining {
-    margin-top: 19px;
-    margin-bottom: 5px;
-    margin-left: 30px; 
-    margin-right: 30px;
+      margin-top: 19px;
+      margin-bottom: 5px;
+      margin-left: 30px; 
+      margin-right: 30px;
   }
-  
-  .contact-margining {
-    margin-top: 19px;
-    margin-bottom: 5px;
-    margin-left: 100px; 
-    margin-right: 30px;
-  }
-  
-  .footer-nav ul:nth-of-type(1) {
-    padding-left: 0;
-    border-bottom: white solid 1px;
-  }
-  
-  .footer-nav ul:nth-of-type(2) {
-    padding-left: 0px;
-    padding-right: 0px;
-    border-bottom: white solid 1px;
-  }
-  
-  .footer-nav ul:nth-of-type(3) {
-    padding-left: 0px;
-    padding-right: 0px;
-    border-bottom: white solid 1px;
-  }
-  
-  .footer-nav ul:nth-of-type(4) {
-    padding-right: 0px;
-    padding-left: 0px;
-    border-bottom: white solid 1px;
-  } 
-  
-  .footer-nav ul:nth-of-type(5) {
-    padding-right: 0px;
-    padding-left: 0px;
-    border-bottom: white solid 1px;
-  } 
-  
-  /* nav.emblem-logo {
     
+  .contact-margining {
+      margin-top: 19px;
+      margin-bottom: 5px;
+      margin-left: 100px; 
+      margin-right: 30px;
+  }
+    
+  .footer-nav ul:nth-of-type(1) {
+      border-bottom: 1px solid white;
+      padding-left: 0;
+  }
+    
+  .footer-nav ul:nth-of-type(2) {
+      border-bottom: 1px solid white;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+    
+  .footer-nav ul:nth-of-type(3) {
+      border-bottom: 1px solid white;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+    
+  .footer-nav ul:nth-of-type(4) {
+      border-bottom: 1px solid white;
+      padding-right: 0px;
+      padding-left: 0px;
+  } 
+    
+  .footer-nav ul:nth-of-type(5) {
+      border-bottom: 1px solid white;
+      padding-right: 0px;
+      padding-left: 0px;
+  } 
+    
+  /* nav.emblem-logo {
+      
   } */
-  
+    
   .copyright {
-    margin-right: 8px;
+      margin-right: 8px;
   }
-  
+    
   .privacy-notice {
-    margin-left: 8px;
-    text-decoration: underline;
+      margin-left: 8px;
+      text-decoration: underline;
   }
-  
+    
   li {
-    list-style: none;
-    font-size: 1.3rem;
+      list-style: none;
+      font-size: 1.3rem;
   }
-  
+    
   .fb-icon {
-    height: 75px;
-    width: auto;
-    margin-right: 20px;
-    /*padding-top: 15px; */
+      height: 75px;
+      width: auto;
+      /*margin-right: 30px;
+      padding-top: 15px; */
   }
-  
+    
   .insta-icon {
-    height: 75px;
-    width: auto;
-    /* padding-top: 15px; */
+      height: 75px;
+      width: auto;
+      /* padding-top: 15px; */
   }
-  
+    
   section.footer-nav {
-    display: flex;
-    margin-left: 100px;
+      margin-left: 100px;
   }  
   
   h4 {
-    display: flex;
-    margin: 0 0 0 -30px;
-    justify-content: flex-start;
+      margin: 0;
   }
   
   .social-media-icons {
-    min-height: 206.8px;
-    max-width: 180px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 50px;
-    justify-content: center;
+      min-height: 206.8px;
+      max-width: 180px;
+      display: flex;
+      flex-wrap: wrap;
   }
+  
+  /* svg.fb-icon, svg.insta-icon {
+  
+  } */
   
   .connect {
-    display: flex;
-    align-items: flex-start;
+      display: flex;
+      align-items: flex-start;
   }
-  
-  .social-icons {
-    display: flex;
-  }
-  
-  .resize {
-    width: auto;
-    height: 700px;
-    margin: 0px 150px 50px 100px;
-  }
-  
-  /* footer */
-  
+
   body{
     background: linear-gradient(black, grey);
   }
@@ -296,7 +286,7 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionhats.png);
+    background: url(.vscode/pictures/);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -310,7 +300,7 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionshirts.png);
+    background: url(.vscode/pictures/);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -322,10 +312,10 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionjackets.png);
+    background: url(.vscode/pictures/childjacket.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 75%;
+    background-position: 50%;
   }
 
   .box-4 {
@@ -335,7 +325,7 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionhoodies.png);
+    background: url(.vscode/pictures/);
     background-repeat: no-repeat;
     background-size: cover;
   }
