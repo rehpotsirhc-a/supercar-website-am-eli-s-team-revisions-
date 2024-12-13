@@ -1,122 +1,121 @@
 a {
-  text-decoration: none;
-}
-
-nav {
-  display: flex;
-  background-color:rgb(0, 0, 0) ;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  flex-direction: row;
-  justify-content: center;
-  width:100%;
-}
-
-ul {
-  background: rgb(40, 38, 35, 0);
-  list-style: none;
-  margin: 0;
-  padding-top: 6px;
-  transform: translate(-0%, -0%)
-}
-
-.trionl{
-  margin-top:3px;
-
-}
-
-
-.cart{
-  margin-right: 15px
-}
-.cart, .acc{
-
-  margin-top:6px;
-
-}
-
-
-li {
-  color: #fff;
-  background: rgb(0, 0, 0);
-  display: inline-block;
-  padding: 1rem;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
-  font-size: 20px;
-}
+    text-decoration: none;
+  }
   
-li a {
-  color: #ffffff;
-  z-index: 99;
-}
-
-li:hover,
-li:focus-within {
-  background: rgb(186, 186, 186);
-}
-
-ul li ul {
-  background: rgb(40, 38, 35);
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-  top:0;
-}
-
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-ul li ul li {
-  width: 111%;
-  font-size: 20px;
-  transform: translate(-26%, -0%);
-  z-index: 9999;
-}
-.dropdown{
-  position:absolute;
-  background: rgb(121, 121, 121, 0);
-  margin-top: 53px;
-  z-index: 0;
-}
-
-
-@media screen and (min-width:1700px) and (max-width:20000px){
-
+  nav {
+    font-family: monospace;
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    border: 0px solid rgb(18, 18, 186);
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+  }
+  
   ul {
-
-      transform: translate(-25%, -0%);
-  
+    background: rgb(40, 38, 35, 0);
+    list-style: none;
+    margin: 0;
+    padding-top: 6px;
+    transform: translate(-0%, -0%)
   }
   
   .trionl{
-
-      transform: translate(-240%, -0%)
+    margin-top:3px;
+  
   }
-
+  
+  
+  svg{
+    margin-right: 15px
+  }
   .cart, .acc{
   
-
-      transform: translate(1350%, -0%)
+    margin-top:6px;
+  
+  }
+  
+  
+  li {
+    color: #fff;
+    background: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 20px;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+    background: rgb(186, 186, 186);
+  }
+  
+  ul li ul {
+    background: rgb(40, 38, 35);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    top:0;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
   }
   
   ul li ul li {
-      width: 111%;
-      font-size: 20px;
-      transform: translate(-2%, -0%);
+    width: 111%;
+    font-size: 20px;
+    transform: translate(-26%, -0%);
+    z-index: 9999;
   }
-}
+  .dropdown{
+    position:absolute;
+    background: rgb(121, 121, 121, 0);
+    margin-top: 53px;
+  }
+  
+  
+  @media screen and (min-width:2000px) and (max-width:2100px){
+  
+    ul {
+  
+        transform: translate(-25%, -0%)
+    
+    }
+    
+    .trionl{
+  
+        transform: translate(-200%, -0%)
+    }
+  
+    .cart, .acc{
+    
+  
+        transform: translate(1150%, -0%);
+    }
+    
+    ul li ul li {
+        width: 111%;
+        font-size: 20px;
+        transform: translate(-2%, -0%);
+    }
+  }
   
   
   
@@ -274,69 +273,76 @@ ul li ul li {
 
   .container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
     font-size: xx-large;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+  .povs {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
   }
 
 
-.box-1 {
-    width: 350px;
-    height: 700px;
+  .box-1 {
+    width: 750px;
+    height: 650px;
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/menhats.png);
+    background: url(.vscode/pictures/blackhat.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 55%;
+    background-position: 50%;
   }
 
-
-
   .box-2 {
-    width: 350px;
-    height: 700px;
+    width: 300px;
+    height: 200px;
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
-    margin-top: 5em;
-    background: url(.vscode/pictures/bucketmen.png);
+    background: url(.vscode/pictures/);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
   }
 
   .box-3 {
-    width: 350px;
-    height: 700px;
+    width: 300px;
+    height: 200px;
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
-    margin-top: 5em;
-    background: url(.vscode/pictures/beaniemen.png);
+    background: url(.vscode/pictures/);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 55%;
+    background-position: 50%;
   }
 
   .box-4 {
-    width: 350px;
-    height: 700px;
+    width: 300px;
+    height: 200px;
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
-    margin-top: 5em;
-    background: url(.vscode/pictures/trionhoodies.png);
+    background: url(.vscode/pictures/);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50%;
   }
-  
+
+
   button.my-button {
-    margin-top: 750px;
+    margin-top: 20em;
+    margin-left: 50em;
     background-color: rgb(180, 158, 158);
-    padding: 15px 75px;
+    padding: 5px 100px;
     border-radius: 2px;
     text-decoration: none;
     color: white;
