@@ -2,7 +2,7 @@ a {
     text-decoration: none;
   }
   
-  nav {
+nav {
     display: flex;
     background-color:rgb(0, 0, 0) ;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -10,6 +10,22 @@ a {
     justify-content: center;
     width:100%;
   }
+
+
+  .navigationheader {
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    position: fixed;
+    margin: 0;
+    padding: top 20px;
+    transform: translate(-8px,-10px);
+    z-index: 9;
+  }
+
 
   ul {
     background: rgb(40, 38, 35, 0);
@@ -100,13 +116,13 @@ a {
     
     .trionl{
   
-        transform: translate(-190%, -0%)
+        transform: translate(-200%, -0%)
     }
   
     .cart, .acc{
     
   
-        transform: translate(1160%, -0%)
+        transform: translate(1150%, -5%)
     }
     
     ul li ul li {
@@ -123,7 +139,6 @@ body{
 [class^="box"] {
   color:white;
   font-size: 5px;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
   border: 20px solid white;
 }
@@ -180,6 +195,7 @@ body{
   font-size: 60px;
   padding-left: 15px;
   padding-right: 19px;
+  padding-top: 5px;
   height: 75px;
   order:1;
   border:1px solid white;
@@ -268,6 +284,7 @@ body{
   font-size: 60px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 10px;
   height: 80px;
   order:1;
   border:1px solid white;
@@ -281,10 +298,24 @@ body{
   width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(46.5%,-47.9%);
+  transform: translate(20.5%,-47.9%);
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.box4click {
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 15px 17px;
+  font-size: 30px;
+}
+
+.box5click {
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 15px 17px;
+  font-size: 30px;
 }
 
 
@@ -293,7 +324,7 @@ body{
   width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(180%,-96%);
+  transform: translate(154.3%,-96%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -308,7 +339,7 @@ body{
 }
 
 .car3{
-  transform: translate(27%, 4.8%)
+  transform: translate(13%, 4.8%)
 }
 
 .car5{
@@ -935,12 +966,94 @@ width: 200px;
   display:flex;
   flex-direction: column;
   margin:60px;
-  border-right: 1px solid white;
-  transform: translate(70%,0%);
+  border: 1px solid white;
+  transform: translate(-40%,17%);
   width: 300px;
   height: 400px;
   justify-content: space-between;
 }
+
+.entirepage{
+  border: 0px solid blue;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.accountstuff{
+  display: flex;
+  flex-direction: row;
+  border:0px solid red;
+  margin:0;
+  padding:0;
+  height: 700px;
+  width:900px;
+  transform: translate(-40%,0%);
+}
+
+.fart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ord{
+  background-color: white;
+  border-radius: 4px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 40px;
+  width: 400px;
+  padding:10px
+}
+
+.confighist{
+  background-color: white;
+  border-radius: 4px;
+  border:1px solid black;
+  text-align: center;
+  font-size: 40px;
+  width: 800px;
+  padding:10px
+}
+
+.placea{
+  order:5;
+  transform: translate(-10%,15%);
+}
+
+.placeah{
+  order:5;
+  transform: translate(-20%,15%);
+}
+
+.button3a{
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+  border:1px solid rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  height: 50px;
+  padding: 10px;
+  transform: translate(-80%,800%);
+}
+
+.button3ah{
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+  border:1px solid rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 300px;
+  transform: translate(-80%,450%);
+
+}
+
 
 .accbutton{
   display: flex;
@@ -973,4 +1086,30 @@ width: 200px;
   width: 200px;
   font-size:30px;
   justify-content: space-around;
+}
+
+#button:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  transition: ease .15s;
+}
+
+#button{
+  border-radius: 4px;
+}
+
+
+
+.box8{
+  display: flex;
+  flex-direction: row;
+  border:1px solid blue;
+  width: 1000px;
+  height: 500px;
+  overflow-x: scroll;
+  margin: 20px;
+}
+
+.goat{
+  margin:20px
 }
