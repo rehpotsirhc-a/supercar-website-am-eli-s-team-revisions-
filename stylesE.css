@@ -330,48 +330,49 @@ h4 {
     border: 1px solid white;
     border-left: none;
     border-top: none;
-    background-color: rgb(184, 0, 0);
-    padding: 40px 104px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(184, 0, 0) 70.1%, rgb(184, 0, 0) 70.1%);
+    padding: 40px 100px;
 }
 
 .bex2 {
     display: inline-block;
     border: 1px solid white;
     border-top: none;
-    background-color: rgb(214, 139, 0);
-    padding: 40px 91px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, orange 70.1%, orange 70.1%);
+    padding: 40px 83.19px;
 }
 
 .bex3 {
     display: inline-block;
     border: 1px solid white;
     border-top: none;
-    background-color: rgb(194, 194, 0);
-    padding: 40px 95.6px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(194, 194, 0) 70.1%, rgb(194, 194, 0) 70.1%);
+    padding: 40px 89.19px;
 }
 
 .bex4 {
     display: inline-block;
     border: 1px solid white;
     border-top: none;
-    background-color: green;
-    padding: 40px 95.5px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, green 70.1%, green 70.1%);
+    padding: 40px 89.08px;
 }
 
 .bex5 {
     display: inline-block;
     border: 1px solid white;
     border-top: none;
-    background-color: rgb(56, 0, 168);
-    padding: 40px 102.15px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(56, 0, 168) 70.1%, rgb(56, 0, 168) 70.1%);
+    padding: 40px 97.7px;
 }
 
 .bex6 { 
     display: inline-block;
     border: 1px solid white;
     border-top: none;
-    background-color: rgb(149, 2, 194);
-    padding: 40px 95.1px;
+    border-right: none;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(149, 2, 194) 70.1%, rgb(149, 2, 194) 70.1%);
+    padding: 40px 88.92px;
 }
 
 .bex7 {
@@ -380,16 +381,16 @@ h4 {
     border: 1px solid white;
     border-left: none;
     border-bottom: none;
-    background-color: rgb(104, 81, 13);
-    padding: 40px 96.19px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(104, 81, 13) 70.1%, rgb(104, 81, 13) 70.1%);
+    padding: 40px 89.84px;
 }
 
 .bex8 {
     display: inline-block;
     border: 1px solid white;
     border-bottom: none;
-    background-color: rgb(217, 0, 199);
-    padding: 40px 102.6px;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(217, 0, 199) 70.1%, rgb(217, 0, 199) 70.1%);
+    padding: 40px 98.28px;
 }
 
 .bex9 {
@@ -397,59 +398,56 @@ h4 {
     border: 1px solid white;
     border-bottom: none;
     background-color: rgb(0, 0, 0);
-    padding: 40px 99.285px;
+    padding: 40px 93.98px;
 }
-
-/* GET SIZES PERFECT */
 
 .bex10 {
     display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid white;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(107, 107, 107) 70.1%, rgb(107, 107, 107) 70.1%);
     border-bottom: none;
-    background-color: rgb(107, 107, 107);
-    padding: 40px 100px;
-    color: black;
+    padding: 40px 95.47px;
 }
 
 .bex11 {
     display: inline-block;
     border: 1px solid white;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(199, 165, 53) 70.1%, rgb(199, 165, 53) 70.1%);
     border-bottom: none;
-    background-color: rgb(199, 165, 53);
-    padding: 40px 100px;
+    padding: 40px 94.66px;
 }
 
 .bex12 {
     display: inline-block;
     border: 1px solid white;
     border-bottom: none;
-    background-color: rgb(172, 172, 172);
-    padding: 40px 100px;
+    border-right: none;
+    background-image: linear-gradient(48.1deg, #000000 69.9%, #000000 69.9%, rgb(172, 172, 172) 70.1%, rgb(172, 172, 172) 70.1%);
+    padding: 40px 92.98px;
 }
 
 .fini {
     display: inline-block;
     border: 1px solid white;
-    border-right: none;
     background-color: black;
-    padding: 40px 100px;
-    font-size: 2.5rem;
-    margin-top: 38px;
+    padding: 30px 80px;
+    font-size: 2.3rem;
+    margin-top: 52px;
 }
 
 .butt {
     display: inline-block;
     border: 1px solid white;
-    border-left: none;
     background-color: black;
     padding: 30px 80px;
     font-size: 2.3rem;
     margin-right: 12px;
+    margin-left: 40px;
 }
 
-.rthi {
+/* .rthi {
 
-}
+} */
 
 #bigolguy {
     display: flex;
@@ -458,10 +456,19 @@ h4 {
 }
 
 .contained {
+    font-size: 1.3rem;
     border: 1px solid white;
     border-bottom: none;
     border-left: none;
     border-top: none;
     border-bottom: none;
-    max-width: 1469px;
+    max-width: 1441.8px;
+}
+
+.bex2o {
+    display: inline-block;
+    border: 1px solid white;
+    border-top: none;
+    background-color: orange;
+    padding: 40px 83.19px;
 }
