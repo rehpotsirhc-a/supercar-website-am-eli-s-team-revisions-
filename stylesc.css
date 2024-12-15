@@ -360,6 +360,7 @@ body{
 
 .car4{
   border-bottom: 1px solid white;
+  width: 100%
 }
 
 .flex-container-nemisis{
@@ -369,6 +370,7 @@ body{
   background-color: rgba(0, 0, 0, 0.468);
   padding:20px;
   height: 650px;
+  transform: translate(0%,8%);
 }
 
 .box1n{
@@ -398,6 +400,13 @@ body{
   transform: translate(23%,-10%);
 }
 
+.para1nb{
+  border:0px solid blue;
+  font-size: 30px;
+  width: 800px;
+  transform: translate(25%,-10%);
+}
+
 .flex-container-nemesis2{
   margin:60px;
   width: 60%;
@@ -411,6 +420,7 @@ body{
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  transform: translate(0%,10%);
 }
 
 .title2n{
@@ -456,14 +466,17 @@ a{
   color: white;
 }
 
-
+/*footer*/
 .emblem-logo {
   display: flex;
-  border-top: 1px white solid;
+  position: absolute;
+  border: 1px white solid;
   background-color: black;
   color: white;
   align-items: flex-start;
   flex-wrap: wrap;
+  transform: translate(-0.4%,0%);
+  width: 1900px;
 }
 
 .trionf {
@@ -488,6 +501,7 @@ a{
   align-items: center;
   text-decoration: none;
   font-size: 2.2rem;
+  border: 0px solid white;
 }
 
 .margining {
@@ -533,10 +547,6 @@ a{
   border-bottom: white solid 1px;
 } 
 
-/* nav.emblem-logo {
-  
-} */
-
 .copyright {
   margin-right: 8px;
 }
@@ -573,7 +583,37 @@ h4 {
   display: flex;
   margin: 0 0 0 -30px;
   justify-content: flex-start;
+  transform: translate(13%,0%);
 }
+
+.configfoot {
+  display: flex;
+  margin: 0 0 0 -30px;
+  justify-content: flex-start;
+  transform: translate(17%,0%);
+}
+
+.storefoot{
+  display: flex;
+  margin: 0 0 0 -30px;
+  justify-content: flex-start;
+  transform: translate(17%,0%);
+}
+
+.aboutfoot {
+  display: flex;
+  margin: 0 0 0 -30px;
+  justify-content: flex-start;
+  transform: translate(8%,0%);
+}
+
+.contactfoot {
+  display: flex;
+  margin: 0 0 0 -30px;
+  justify-content: flex-start;
+  transform: translate(17%,0%);
+}
+
 
 .social-media-icons {
   min-height: 206.8px;
@@ -644,6 +684,8 @@ h4 {
   order: 3;
   font-size:30px
 }
+
+/*footer end*/
 
 .flex-container-ab {
   border:0px solid #0051ff;
@@ -1133,9 +1175,12 @@ margin-top: 60px;
 border:2px solid white
 }
 
+.dropdown{
+  transform: translate(-7%,-0%);
+}
 
 .trionl{
-  transform: translate(-60%,0%);
+  transform: translate(-20%,0%);
   width: 100px;
 }
 
@@ -1242,12 +1287,13 @@ ul{
   font-size:40px;
 }
 
-  .emblem-logo{
-      width:760px;
-      display: flex;
-      border:1px solid blue;
-      flex-direction: column;
-  }
+.emblem-logo{
+  width:790px;
+  display: flex;
+  border:0px solid blue;
+  flex-direction: column;
+  transform: translate(-1%,0%);
+}
 
 .footer-nav{
   width:800px;
@@ -1269,6 +1315,181 @@ ul{
 .trionf{
   transform: translate(90%,0%);
 }
+
+.flex-container-nemisis{
+  transform: translate(0%,25%);
+  height: 230px;
+  border:1px solid white
+}
+
+.para1n{
+  font-size:13px;
+  transform: translate(-6%,-30%);
+  width: 290px;
+  border:0px solid blue;
+  }
+
+.titlenn{
+  font-size:20px;
+  transform: translate(-20%,-250%);
+}
+
+.flex-container-nemesis2{
+  transform: translate(0%,10%);
+}
+
+.title2n{
+  font-size: 30px;
+  transform: translate(0%,-120%);
+}
+
+.para2n{
+  font-size: 20px;
+  transform: translate(0%,0%);
+}
+
+.ext{
+  transform: translate(0%,80%);
+  font-size: 20px;
+  padding:8px;
+  height: 40px;
+}
+
+.int{
+  transform: translate(0%,80%);
+  font-size: 20px;
+  padding:8px;
+  height: 40px;
+}
+
+.title1n{
+  font-size: 25px;
+  transform: translate(-10%,-150%);
+}
+
+.para1nb{
+  border:0px solid blue;
+  width: 290px;
+  font-size: 11px;
+  transform: translate(-7%,-30%);
+}
+
+}
+
+@media only screen and (max-width: 700px){
+  .box6, .box7{
+    transform: translate(2%,20%);
+  }
+
+  .box4, .box5{
+    border:2px solid white;
+    transform: translate(2%,20%);
+  }
+
+  .car3{
+    transform: translate(25%,10%);
+    border:2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+  }
+
+  .dropdown{
+    transform: translate(-7%,-40%);
+  }
+
+  .emblem-logo{
+    width:680px;
+    display: flex;
+    border:0px solid blue;
+    flex-direction: column;
+    transform: translate(-1%,0%);
+}
+
+  .footer-nav{
+    width:450px;
+    display: flex;
+    border:0px solid rgb(255, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .trionl{
+    transform: translate(-80%,0%);
+    width: 100px;
+  }
+
+  .acc, .cart{
+    transform: translate(100%,0%);
+  }
+
+  ul a{
+    position: absolute;
+    font-size: 10px;
+  }
+
+  ul{
+    transform: translate(-30%,0%);
+  }
+
+  .flex-container-nemisis{
+    transform: translate(0%,25%);
+    height: 230px;
+    border:1px solid white
+  }
+
+  .para1n{
+    font-size:13px;
+    transform: translate(-6%,-30%);
+    width: 290px;
+    border:0px solid blue;
+    }
+
+  .titlenn{
+    font-size:20px;
+    transform: translate(-20%,-250%);
+  }
+
+  .flex-container-nemesis2{
+    transform: translate(0%,10%);
+  }
+
+  .title2n{
+    font-size: 30px;
+    transform: translate(0%,-120%);
+  }
+
+  .para2n{
+    font-size: 20px;
+    transform: translate(0%,0%);
+  }
+
+  .ext{
+    transform: translate(0%,80%);
+    font-size: 20px;
+    padding:8px;
+    height: 40px;
+  }
+
+  .int{
+    transform: translate(0%,80%);
+    font-size: 20px;
+    padding:8px;
+    height: 40px;
+  }
+
+  .title1n{
+    font-size: 25px;
+    transform: translate(-10%,-150%);
+  }
+
+  .para1nb{
+    border:0px solid blue;
+    width: 290px;
+    font-size: 11px;
+    transform: translate(-7%,-30%);
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1398,7 +1619,7 @@ ul{
   }
   
     .emblem-logo{
-        width:485px;
+        width:605px;
         display: flex;
         border:0px solid blue;
         flex-direction: column;
@@ -1424,4 +1645,6 @@ ul{
   .trionf{
     transform: translate(30%,0%);
   }
-  }
+}
+
+ 

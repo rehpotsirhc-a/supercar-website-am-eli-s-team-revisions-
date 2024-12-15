@@ -1,94 +1,131 @@
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  background-color:rgb(0, 0, 0) ;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+}
+
+
+.navigationheader {
+  display: flex;
+  background-color:rgb(0, 0, 0) ;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+  position: fixed;
+  margin: 0;
+  padding: top 20px;
+  transform: translate(-8px,-10px);
+  z-index: 9;
+}
+
+
+ul {
+  background: rgb(40, 38, 35, 0);
+  list-style: none;
+  margin: 0;
+  padding-top: 6px;
+  transform: translate(-15%, -0%)
+}
+
+.trionl{
+  margin-top:3px;
+
+}
+
+
+.cart{
+  margin-right: 15px
+}
+.cart, .acc{
+
+  margin-top:6px;
+
+}
+
+
+li {
+  color: #fff;
+  background: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  font-size: 20px;
+}
   
-  nav {
-    font-family: monospace;
-    display: flex;
-    background-color:rgb(0, 0, 0) ;
-    border: 0px solid rgb(18, 18, 186);
-    flex-direction: row;
-    justify-content: center;
-    width:100%;
-  }
-  
-  ul {
-    background: rgb(40, 38, 35, 0);
-    list-style: none;
-    margin: 0;
-    padding-top: 6px;
-    transform: translate(-0%, -0%)
-  }
-  
-  .trionl{
-    margin-top:3px;
-  
-  }
-  
-  
-  svg{
-    margin-right: 15px
-  }
-  .cart, .acc{
-  
-    margin-top:6px;
-  
-  }
-  
-  
-  li {
-    color: #fff;
-    background: rgb(0, 0, 0);
-    display: inline-block;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    font-size: 20px;
-  }
-    
-  li a {
-    color: #fff;
-  }
-  
-  li:hover,
-  li:focus-within {
-    background: rgb(186, 186, 186);
-  }
-  
-  ul li ul {
-    background: rgb(40, 38, 35);
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-    top:0;
-  }
-  
-  ul li:hover > ul,
-  ul li:focus-within > ul,
-  ul li ul:hover,
-  ul li ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: block
-  }
-  
-  ul li ul li {
-    width: 111%;
-    font-size: 20px;
-    transform: translate(-26%, -0%);
-    z-index: 9999;
-  }
-  .dropdown{
-    position:absolute;
-    background: rgb(121, 121, 121, 0);
-    margin-top: 53px;
-  }
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+  background: rgb(186, 186, 186);
+}
+
+ul li ul {
+  background: rgb(40, 38, 35);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+  top:0;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+  width: 111%;
+  font-size: 20px;
+  transform: translate(-26%, -0%);
+  z-index: 9999;
+}
+.dropdown{
+  position:absolute;
+  background: rgb(121, 121, 121, 0);
+  margin-top: 53px;
+}
+
+
+body{
+background: linear-gradient(black, grey);
+}
+
+.flex-container {
+border:0px solid #0051ff;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin: auto ;
+align-items: center;
+}
+
+.trionl{
+transform: translate(-185%,0%);
+}
+
+.acc, .cart{
+transform: translate(1000%,0%);
+}
   
   
   @media screen and (min-width:2000px) and (max-width:2100px){
@@ -358,7 +395,6 @@ a {
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
-    background: url(.vscode/pictures/blackhat2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -370,7 +406,6 @@ a {
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
-    background: url(.vscode/pictures/blackhat3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -382,7 +417,6 @@ a {
     border: 1px solid white;
     padding: 10px;
     margin: 10px;
-    background: url(.vscode/pictures/blackhat4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -432,4 +466,20 @@ a {
     text-decoration: none;
     color: white;
     font-size: x-large;
+}
+
+.povs{
+    display: flex;
+    flex-direction: row;
+    border:0px solid blue;
+    width: 775px;
+    height: 500px;
+    overflow-x: scroll;
+    margin: 20px;
+    justify-content: space-evenly;
+    transform: translate(-5%,-6%);
+}
+
+.goat{
+  margin:20px
 }
