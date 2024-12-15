@@ -300,8 +300,20 @@ body{
   order:1;
   border:1px solid white;
   background-color: rgba(0, 0, 0, 0.236);
-
 }
+
+.button2{
+  font-size: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  height: 80px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
+  transform: translate(0%,60%);
+}
+
 /*index card 3*/
 
 .box4, .box5{
@@ -1360,6 +1372,15 @@ ul{
   font-size: 20px;
   padding:8px;
   height: 40px;
+}
+
+.int:hover{
+  transform: translate(0%,80%);
+  font-size: 20px;
+  padding:8px;
+  height: 40px;
+  color:black;
+  background-color: white;
 }
 
 .title1n{
