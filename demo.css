@@ -13,7 +13,7 @@ body {
     width:800px;
     padding:20px;
     border-radius: 4px;
-    transform: translate(65%,0%);
+    transform: translate(70%,0%);
     margin-top:60px;
 }
 
@@ -260,10 +260,6 @@ ul li ul li {
 }
 
 
-.trionl{
-transform: translate(-200%,0%);
-}
-
 .acc, .cart{
 transform: translate(1140%,0%);
 }
@@ -330,7 +326,7 @@ body{
 }
 
 .trionl{
-    transform: translate(-185%,0%);
+    transform: translate(-200%,0%);
 }
   
 .acc, .cart{
