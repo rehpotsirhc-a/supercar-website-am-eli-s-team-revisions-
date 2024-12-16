@@ -318,7 +318,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/bucketmen.png);
+    background: url(pictures/bucketmen.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -331,7 +331,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/beaniemen.png);
+    background: url(pictures/beaniemen.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
@@ -344,7 +344,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionhoodies.png);
+    background: url(pictures/trionhoodies.png);
     background-repeat: no-repeat;
     background-size: cover;
   }

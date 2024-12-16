@@ -327,7 +327,7 @@ h2{
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/Merch1.png);
+    background: url(pictures/Merch1.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -341,7 +341,7 @@ h2{
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/Merch2.png);
+    background: url(pictures/Merch2.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -353,7 +353,7 @@ h2{
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/Merch3.png);
+    background: url(pictures/Merch3.png);
     background-repeat: no-repeat;
     background-size: cover;
   }

@@ -164,7 +164,7 @@ ul li ul li {
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
-    background: url(.vscode/pictures/blackw.jpeg);
+    background: url(pictures/blackw.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgba(0, 0, 0, 0.425);
@@ -176,7 +176,7 @@ ul li ul li {
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
-    background: url(.vscode/pictures/trion-nemesis.jpg);
+    background: url(pictures/trion-nemesis.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgba(0, 0, 0, 0.425);
