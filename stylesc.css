@@ -287,6 +287,19 @@ body{
   flex-direction: column;
 }
 
+.box4click {
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 15px 17px;
+  font-size: 30px;
+}
+
+.box5click {
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 15px 17px;
+  font-size: 30px;
+}
 
 .box6, .box7{
   margin:20px;

@@ -472,3 +472,101 @@ h4 {
     background-color: orange;
     padding: 40px 83.19px;
 }
+
+.toppapage {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.biggyleft {
+    font-size: 2.9rem;
+    margin-top: 75px;
+}
+
+.smallyright {
+    margin-top: 97px;
+    font-size: 1.2rem;
+}
+
+.ima1, .ima2, .ima3, .ima4, .ima5, .ima6 {
+    width: 750px;
+    height: 450px;
+    margin-bottom: 25px;
+}
+
+.link1, .link2, .link3, .link4, .link5, .link6 {
+    margin-bottom: 70px;
+    text-decoration: underline;
+    margin-left: 20px;
+    font-size: 2rem;
+} 
+
+.cole1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cole2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.holder {
+    display: flex;
+}
+
+.topperpage {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.bottertopperpage {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.binx1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.binx2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.labeled1 {
+    color: white;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    font-size: 2.3rem;
+}
+
+.labeled2 {
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    max-width: 600px;
+    font-size: 1.2rem;
+}
+
+.imga {
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
