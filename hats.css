@@ -285,6 +285,7 @@ ul li ul li {
 
   body{
     background: linear-gradient(black, grey);
+    background-attachment: fixed ;
   }
 
   .container {

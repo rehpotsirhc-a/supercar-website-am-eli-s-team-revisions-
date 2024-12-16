@@ -207,7 +207,7 @@ ul li ul li {
 }
 
 .box-2 p{
-  margin-top: 18em;
+  margin-top: 17em;
   margin-bottom: 3em;
   color: white;
 }
@@ -217,7 +217,7 @@ ul li ul li {
   padding: 15px 75px;
   border-radius: 2px;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   border: 1px solid white
 }
 
@@ -239,7 +239,7 @@ body{
 }
 
 .bl{
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: xx-large;
   margin-left: 1em;
 }
@@ -613,8 +613,8 @@ a{
     color: white;
     align-items: flex-start;
     flex-wrap: wrap;
-    transform: translate(-0.4%,0%);
-    width: 1900px;
+    transform: translate(0%,0%);
+    width: 2020px;
   }
   
   .trionf {

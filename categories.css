@@ -295,6 +295,7 @@ ul li ul li {
   
   body{
     background: linear-gradient(black, grey);
+    background-attachment: fixed ;
   }
 
   .container {
@@ -312,7 +313,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/trionhats.png);
+    background: url(.vscode/pictures/trion\ hats.png);
     background-repeat: no-repeat;
     background-size: cover;
   }

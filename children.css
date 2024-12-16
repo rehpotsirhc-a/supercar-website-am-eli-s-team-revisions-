@@ -283,6 +283,7 @@ a {
 
   body{
     background: linear-gradient(black, grey);
+    background-attachment: fixed ;
   }
 
   .container {

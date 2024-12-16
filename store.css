@@ -26,12 +26,13 @@ nav {
   z-index: 9;
 }
 
+
 ul {
   background: rgb(40, 38, 35, 0);
   list-style: none;
   margin: 0;
   padding-top: 6px;
-  transform: translate(-0%, -0%)
+  transform: translate(-15%, -0%)
 }
 
 .trionl{
@@ -102,6 +103,15 @@ ul li ul li {
   position:absolute;
   background: rgb(121, 121, 121, 0);
   margin-top: 53px;
+}
+
+
+.trionl{
+transform: translate(-205%,0%);
+}
+
+.acc, .cart{
+transform: translate(1100%,0%);
 }
 
   
@@ -293,6 +303,7 @@ ul li ul li {
 
   body{
     background: linear-gradient(black, grey);
+    background-attachment: fixed ;
   }
 
 

@@ -105,9 +105,19 @@ nav {
     margin-top: 53px;
   }
 
+  
+.trionl{
+  transform: translate(-200%,0%);
+}
+
+.acc, .cart{
+  transform: translate(1140%,0%);
+}
+
 
 body{
   background: linear-gradient(black, grey);
+  background-attachment: fixed ;
 }
 
 [class^="box"] {
@@ -132,13 +142,6 @@ body{
   align-items: center;
 }
 
-.trionl{
-  transform: translate(-185%,0%);
-}
-
-.acc, .cart{
-  transform: translate(1000%,0%);
-}
 
 /*index CARD 1 */
 .box1 {
@@ -322,7 +325,7 @@ body{
   height: 300px;
   font-size: 30px;
   border: 2px solid rgb(255, 255, 255);
-  transform: translate(10%,-47.9%);
+  transform: translate(20%,-47.9%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -348,7 +351,7 @@ body{
   width: 500px;
   height: 300px;
   font-size: 30px;
-  transform: translate(143.5%,-96%);
+  transform: translate(153.5%,-96%);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -487,8 +490,8 @@ a{
   color: white;
   align-items: flex-start;
   flex-wrap: wrap;
-  transform: translate(-0.4%,0%);
-  width: 1900px;
+  transform: translate(0%,0%);
+  width: 2020px;
 }
 
 .trionf {
@@ -1205,7 +1208,8 @@ a{
 }
 
 ul{
-  transform: translate(-5%,0%);
+  transform: translate(300%,0%);
+  margin-right:2000px;
 }
 
 .car3{
@@ -1450,7 +1454,7 @@ ul{
   }
 
   ul{
-    transform: translate(-30%,0%);
+    transform: translate(-3%,0%);
   }
 
   .flex-container-nemisis{
