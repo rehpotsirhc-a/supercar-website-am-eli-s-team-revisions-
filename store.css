@@ -11,6 +11,21 @@ nav {
   width:100%;
 }
 
+
+.navigationheader {
+  display: flex;
+  background-color:rgb(0, 0, 0) ;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+  position: fixed;
+  margin: 0;
+  padding: top 20px;
+  transform: translate(-8px,-10px);
+  z-index: 9;
+}
+
 ul {
   background: rgb(40, 38, 35, 0);
   list-style: none;
@@ -100,13 +115,13 @@ ul li ul li {
   
   .trionl{
 
-      transform: translate(-240%, -0%)
+      transform: translate(-200%, -0%)
   }
 
   .cart, .acc{
   
 
-      transform: translate(1350%, -0%)
+      transform: translate(1150%, -5%)
   }
   
   ul li ul li {
@@ -354,3 +369,6 @@ h2{
     font-size: x-large;
 }
 
+a{
+  color:white;
+}

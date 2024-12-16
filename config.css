@@ -4,17 +4,27 @@ a {
   }
   
   nav {
-    font-family: "Jost", sans-serif;
     display: flex;
     background-color:rgb(0, 0, 0) ;
-    border: 0px solid rgb(18, 18, 186);
+    border-bottom: 1px solid rgb(255, 255, 255);
     flex-direction: row;
     justify-content: center;
     width:100%;
   }
 
+
   .top-nav {
-    border-bottom: 1px solid white;
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    position: fixed;
+    margin: 0;
+    padding: top 20px;
+    transform: translate(-8px,-50px);
+    z-index: 9;
   }
 
   ul {
@@ -106,13 +116,13 @@ a {
     
     .trionl{
   
-        transform: translate(-240%, -0%)
+        transform: translate(-200%, -0%)
     }
   
     .cart, .acc{
     
   
-        transform: translate(1350%, -0%)
+        transform: translate(1150%, -5%)
     }
     
     ul li ul li {
@@ -271,11 +281,22 @@ body{
     display: flex;
   }
   
+  .resize0 {
+    width: auto;
+    height: 470px;
+    margin: 0px 10px 50px 30px;
+    transform: translate(0%,9%);
+    border:2px solid white;
+  }
+
   .resize {
     width: auto;
-    height: 700px;
-    margin: 0px 150px 50px 100px;
+    height: 482px;
+    margin: 0px 10px 50px 30px;
+    transform: translate(0%,9%);
+    border:2px solid white;
   }
+  
   
   /* footer */
   
@@ -294,13 +315,6 @@ h1 {
     letter-spacing: 5px;
 }
 
-.resize {
-    margin-top: 25px;
-    margin-left: 80px;
-    margin-bottom: 100px;
-    width: auto;
-    height: 750px;
-}
 
 .flexbox {
     display: flex;
@@ -312,6 +326,12 @@ h1 {
     max-width: 750px;
     margin-left: 150px;
     margin-top: 22px;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border:2px solid white;
+    border-radius:4px
 }
 
 a.config-text {
@@ -325,7 +345,7 @@ a.config-text {
     display: inline-block;
     font-size: 50px;
     border: 1px solid white;
-    padding: 20px 190px;
+    padding: 20px;
     background: black;
     margin-left: 100px;
     margin-bottom: 20px;
@@ -335,7 +355,7 @@ a.config-text {
     display: inline-block;
     font-size: 50px;
     border: 1px solid white;
-    padding: 20px 185px;
+    padding: 20px;
     background: black;
     margin-left: 100px;
     margin-top: 10px;
@@ -360,6 +380,13 @@ a.config-text {
     max-width: 750px;
     margin-left: 150px;
     margin-top: 22px;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border:2px solid white;
+    border-radius:4px;
+    margin-bottom: 50px;
 }
 
 a.configy-texty {
@@ -369,11 +396,39 @@ a.configy-texty {
     max-height: 34px;
 }
 
+a.exterior:hover {
+  background: rgb(255, 255, 255);
+  color:black;
+  transition-duration: 0.15s;
+  border:1px solid black
+}
+
+a.start:hover {
+  background: rgb(255, 255, 255);
+  color:black;
+  transition-duration: 0.15s;
+  border:1px solid black
+}
+
+a.interiorious:hover {
+  background: rgb(255, 255, 255);
+  color:black;
+  transition-duration: 0.15s;
+  border:1px solid black
+}
+
+a.exteriorious:hover {
+  background: rgb(255, 255, 255);
+  color:black;
+  transition-duration: 0.15s;
+  border:1px solid black
+}
+
 .interiorious {
     display: inline-block;
     font-size: 50px;
     border: 1px solid white;
-    padding: 20px 190px;
+    padding: 20px;
     background: black;
     margin-left: 100px;
     margin-bottom: 20px;
@@ -383,7 +438,7 @@ a.configy-texty {
     display: inline-block;
     font-size: 50px;
     border: 1px solid white;
-    padding: 20px 185px;
+    padding: 20px;
     background: black;
     margin-left: 100px;
     margin-top: 10px;

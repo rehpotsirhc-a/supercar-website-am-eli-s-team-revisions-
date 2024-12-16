@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Kablammo&family=Kavivanar&family=Shadows+Into+Light&family=Smooch&display=swap');
+
   
 * {
     font-family: "Jost", sans-serif;
@@ -473,7 +473,31 @@ h4 {
     padding: 40px 83.19px;
 }
 
-.toppapage {
+nav {
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+  }
+
+
+  .navigationheader {
+    display: flex;
+    background-color:rgb(0, 0, 0) ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    position: fixed;
+    margin: 0;
+    padding: top 20px;
+    transform: translate(-8px,-10px);
+    z-index: 9;
+  }
+
+  .toppapage {
     color: white;
     display: flex;
     width: 100%;
