@@ -329,10 +329,6 @@ body{
     transform: translate(-200%,0%);
 }
   
-.acc, .cart{
-    transform: translate(1000%,0%);
-}
-
 .emblem-logo {
   display: flex;
   position: absolute;
