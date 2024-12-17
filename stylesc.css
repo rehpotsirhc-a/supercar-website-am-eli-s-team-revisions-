@@ -490,7 +490,7 @@ a{
   align-items: flex-start;
   flex-wrap: wrap;
   transform: translate(0%,0%);
-  width: 2020px;
+  width:100%
 }
 
 .trionf {
@@ -509,7 +509,7 @@ a{
 }
 
 .footer-nav {
-  max-width: fit-content;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1207,8 +1207,7 @@ a{
 }
 
 ul{
-  transform: translate(300%,0%);
-  margin-right:2000px;
+  transform: translate(1%,0%);
 }
 
 .car3{
@@ -1303,7 +1302,7 @@ ul{
 }
 
 .emblem-logo{
-  width:790px;
+
   display: flex;
   border:0px solid blue;
   flex-direction: column;
@@ -1311,7 +1310,6 @@ ul{
 }
 
 .footer-nav{
-  width:800px;
   display: flex;
   border:0px solid blue;
   flex-direction: column;
@@ -1335,6 +1333,13 @@ ul{
   transform: translate(0%,25%);
   height: 230px;
   border:1px solid white
+}
+
+.button2{
+  font-size: 20px;
+  padding:10px;
+  height: 20px;
+  transform: translate(0%,-40%);
 }
 
 .para1n{
@@ -1422,15 +1427,16 @@ ul{
   }
 
   .emblem-logo{
-    width:680px;
+
     display: flex;
     border:0px solid blue;
     flex-direction: column;
     transform: translate(-1%,0%);
 }
 
+
   .footer-nav{
-    width:450px;
+
     display: flex;
     border:0px solid rgb(255, 0, 0);
     flex-direction: column;
@@ -1439,21 +1445,22 @@ ul{
 }
 
   .trionl{
-    transform: translate(-80%,0%);
+    transform: translate(-3%,0%);
     width: 100px;
   }
 
   .acc, .cart{
-    transform: translate(100%,0%);
+    transform: translate(10%,0%);
   }
 
   ul a{
     position: absolute;
     font-size: 10px;
+    padding: 0px;
   }
 
   ul{
-    transform: translate(-3%,0%);
+    transform: translate(-30%,0%);
   }
 
   .flex-container-nemisis{
@@ -1507,6 +1514,19 @@ ul{
     transform: translate(-10%,-150%);
   }
 
+  .button2{
+    font-size: 20px;
+    padding:8px;
+    height: 25px;
+    transform: translate(0%,-80%);
+  }
+
+li{
+  width: 55px;
+  text-align: left;
+  transform: translate(100%,0%);
+}
+
   .para1nb{
     border:0px solid blue;
     width: 290px;
@@ -1528,12 +1548,12 @@ ul{
   }
   
   .trionl{
-    transform: translate(-30%,0%);
+    transform: translate(10%,0%);
     width: 100px;
   }
   
   .acc, .cart{
-    transform: translate(90%,0%);
+    transform: translate(10%,0%);
   }
   
   ul a{
@@ -1641,21 +1661,25 @@ ul{
   .title4 a{
     font-size:40px;
   }
+
+  .button1{
+    transform: translate(0%,-370%);
+  }
   
     .emblem-logo{
-        width:605px;
+
         display: flex;
         border:0px solid blue;
         flex-direction: column;
     }
   
   .footer-nav{
-    width:1000px;
     display: flex;
     border:0px solid blue;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transform: translate(-10%,0%);
   }
   
   .privacy-notice{
@@ -1669,6 +1693,39 @@ ul{
   .trionf{
     transform: translate(30%,0%);
   }
+
+   li{
+    width: 20px;
+    transform: translate(-10%,0%);
+   }
+
+   .button2{
+    font-size: 10px;
+    transform: translate(0%,0%);
+   }
+
+   .button3{
+    font-size: 10px;
+    transform: translate(0%,0%);
+   }
+
+   .para6{
+    transform: translate(-1%,0%);
+   }
+
+   
+   .para5{
+    transform: translate(-1%,0%);
+   }
+
+   
+   .para4{
+    transform: translate(3%,0%);
+   }
+
+   .dropdown{
+    transform: translate(-10%,-30%);
+   }
 }
 
  
