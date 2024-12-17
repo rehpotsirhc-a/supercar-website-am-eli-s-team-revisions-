@@ -260,6 +260,9 @@ a{
   border:2px solid white
   }
   
+  .dropdown{
+    transform: translate(-7%,-0%);
+  }
   
   .trionl{
     transform: translate(-20%,0%);
@@ -275,7 +278,7 @@ a{
   }
   
   ul{
-    transform: translate(-5%,0%);
+    transform: translate(1%,0%);
   }
   
   .car3{
@@ -369,16 +372,15 @@ a{
     font-size:40px;
   }
   
-    .emblem-logo{
-        width:760px;
-        display: flex;
-        border:0px solid blue;
-        flex-direction: column;
-        transform: translate(-1%,0%);
-    }
+  .emblem-logo{
+  
+    display: flex;
+    border:0px solid blue;
+    flex-direction: column;
+    transform: translate(-1%,0%);
+  }
   
   .footer-nav{
-    width:800px;
     display: flex;
     border:0px solid blue;
     flex-direction: column;
@@ -397,15 +399,82 @@ a{
   .trionf{
     transform: translate(90%,0%);
   }
-
-  .modeltext{
-    font-size: 30px;
-    height: 250px;
-    transform: translate(0%,-90%);
+  
+  .flex-container-nemisis{
+    transform: translate(0%,25%);
+    height: 230px;
+    border:1px solid white
   }
-
-
-}
+  
+  .button2{
+    font-size: 20px;
+    padding:10px;
+    height: 20px;
+    transform: translate(0%,-40%);
+  }
+  
+  .para1n{
+    font-size:13px;
+    transform: translate(-6%,-30%);
+    width: 290px;
+    border:0px solid blue;
+    }
+  
+  .titlenn{
+    font-size:20px;
+    transform: translate(-20%,-250%);
+  }
+  
+  .flex-container-nemesis2{
+    transform: translate(0%,10%);
+  }
+  
+  .title2n{
+    font-size: 30px;
+    transform: translate(0%,-120%);
+  }
+  
+  .para2n{
+    font-size: 20px;
+    transform: translate(0%,0%);
+  }
+  
+  .ext{
+    transform: translate(0%,80%);
+    font-size: 20px;
+    padding:8px;
+    height: 40px;
+  }
+  
+  .int{
+    transform: translate(0%,80%);
+    font-size: 20px;
+    padding:8px;
+    height: 40px;
+  }
+  
+  .int:hover{
+    transform: translate(0%,80%);
+    font-size: 20px;
+    padding:8px;
+    height: 40px;
+    color:black;
+    background-color: white;
+  }
+  
+  .title1n{
+    font-size: 25px;
+    transform: translate(-10%,-150%);
+  }
+  
+  .para1nb{
+    border:0px solid blue;
+    width: 290px;
+    font-size: 11px;
+    transform: translate(-7%,-30%);
+  }
+  
+  }
   
   @media only screen and (max-width: 700px){
     .box6, .box7{
@@ -424,30 +493,118 @@ a{
       height: 400px;
     }
   
+    .dropdown{
+      transform: translate(-7%,-40%);
+    }
+  
+    .emblem-logo{
+  
+      display: flex;
+      border:0px solid blue;
+      flex-direction: column;
+      transform: translate(-1%,0%);
+  }
+  
+  
+    .footer-nav{
+  
+      display: flex;
+      border:0px solid rgb(255, 0, 0);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
     .trionl{
-      transform: translate(-80%,0%);
+      transform: translate(-3%,0%);
       width: 100px;
     }
   
     .acc, .cart{
-      transform: translate(100%,0%);
+      transform: translate(10%,0%);
     }
   
     ul a{
       position: absolute;
       font-size: 10px;
+      padding: 0px;
     }
   
     ul{
       transform: translate(-30%,0%);
     }
-
-    .modeltext{
-      font-size: 25px;
-      height: 250px;
-      transform: translate(0%,-90%);
+  
+    .flex-container-nemisis{
+      transform: translate(0%,25%);
+      height: 230px;
+      border:1px solid white
     }
-
+  
+    .para1n{
+      font-size:13px;
+      transform: translate(-6%,-30%);
+      width: 290px;
+      border:0px solid blue;
+      }
+  
+    .titlenn{
+      font-size:20px;
+      transform: translate(-20%,-250%);
+    }
+  
+    .flex-container-nemesis2{
+      transform: translate(0%,10%);
+    }
+  
+    .title2n{
+      font-size: 30px;
+      transform: translate(0%,-120%);
+    }
+  
+    .para2n{
+      font-size: 20px;
+      transform: translate(0%,0%);
+    }
+  
+    .ext{
+      transform: translate(0%,80%);
+      font-size: 20px;
+      padding:8px;
+      height: 40px;
+    }
+  
+    .int{
+      transform: translate(0%,80%);
+      font-size: 20px;
+      padding:8px;
+      height: 40px;
+    }
+  
+    .title1n{
+      font-size: 25px;
+      transform: translate(-10%,-150%);
+    }
+  
+    .button2{
+      font-size: 20px;
+      padding:8px;
+      height: 25px;
+      transform: translate(0%,-80%);
+    }
+  
+  li{
+    width: 55px;
+    text-align: left;
+    transform: translate(100%,0%);
+  }
+  
+    .para1nb{
+      border:0px solid blue;
+      width: 290px;
+      font-size: 11px;
+      transform: translate(-7%,-30%);
+    }
+  
   }
   
   @media only screen and (max-width: 600px) {
@@ -462,12 +619,12 @@ a{
     }
     
     .trionl{
-      transform: translate(-30%,0%);
+      transform: translate(10%,0%);
       width: 100px;
     }
     
     .acc, .cart{
-      transform: translate(90%,0%);
+      transform: translate(10%,0%);
     }
     
     ul a{
@@ -575,21 +732,25 @@ a{
     .title4 a{
       font-size:40px;
     }
+  
+    .button1{
+      transform: translate(0%,-370%);
+    }
     
       .emblem-logo{
-          width:605px;
+  
           display: flex;
           border:0px solid blue;
           flex-direction: column;
       }
     
     .footer-nav{
-      width:1000px;
       display: flex;
       border:0px solid blue;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      transform: translate(-10%,0%);
     }
     
     .privacy-notice{
@@ -603,6 +764,39 @@ a{
     .trionf{
       transform: translate(30%,0%);
     }
+  
+     li{
+      width: 20px;
+      transform: translate(-10%,0%);
+     }
+  
+     .button2{
+      font-size: 10px;
+      transform: translate(0%,0%);
+     }
+  
+     .button3{
+      font-size: 10px;
+      transform: translate(0%,0%);
+     }
+  
+     .para6{
+      transform: translate(-1%,0%);
+     }
+  
+     
+     .para5{
+      transform: translate(-1%,0%);
+     }
+  
+     
+     .para4{
+      transform: translate(3%,0%);
+     }
+  
+     .dropdown{
+      transform: translate(-10%,-30%);
+     }
   }
   
   .emblem-logo {
