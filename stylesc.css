@@ -1182,550 +1182,100 @@ width: 200px;
   margin:20px
 }
 
-@media only screen and (max-width: 800px) {
-
-.car4{
-margin-top: 60px;
-border:2px solid white
-}
-
-.dropdown{
-  transform: translate(-7%,-0%);
-}
-
-.trionl{
-  transform: translate(-20%,0%);
-  width: 100px;
-}
-
-.acc, .cart{
-  transform: translate(120%,0%);
-}
-
-a{
-  font-size: 15px;
-}
-
-ul{
-  transform: translate(1%,0%);
-}
-
-.car3{
-  transform: translate(48%,10%);
-  border:2px solid rgb(255, 255, 255);
-  width: 400px;
-  height: 400px;
-}
-
-.box4, .box5{
-  border:2px solid white;
-  transform: translate(21%,20%);
-}
-
-.box1, .box2, .box3{
-  height: 200px;
-}
-
-.box6, .box7{
-  transform: translate(21%,20%);
-}
-
-.box7{
-  margin-bottom: 100px;
-}
-
-.title1{
-  font-size: 20px;
-  border:0px solid blue;
-
-}
- .para1{
-  font-size: 15px ;
-  border:0px solid blue;
-  width: 350px;
-}
-
-.button1{
-  font-size: 20px;
-  transform: translate(0%,-180%);
-  padding-bottom: 5px;
-}
-
-.title2{
-  font-size: 20px;
-}
-
-.para2{
-  font-size: 15px;
-  width: 300px;
-}
-
-.indexcard2{
-  transform: translate(10%,10%);
-}
-
-.title3{
-  font-size: 20px;
-  transform: translate(0%,40%);
-}
-
-.para3{
-  font-size: 15px;
-  transform: translate(0%,20%);
-}
-
-.button3{
-  font-size:20px;
-  height: 20px;
-  padding: 10px;
-  transform: translate(0%,-40%);
-}
-
-.indexcard3{
-  transform: translate(-8%,0%);
-}
-
-.title7 a{
-  font-size:40px;
-}
-
-.title6 a{
-  font-size:40px;
-}
-
-.title5 a{
-  font-size:40px;
-}
-
-.title4 a{
-  font-size:40px;
-}
-
-.emblem-logo{
-
-  display: flex;
-  border:0px solid blue;
-  flex-direction: column;
-  transform: translate(-1%,0%);
-}
-
-.footer-nav{
-  display: flex;
-  border:0px solid blue;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.privacy-notice{
-  transform: translate(320%,0%);
-}
-
-.copyright{
-  transform: translate(260%,0%);
-}
-
-.trionf{
-  transform: translate(90%,0%);
-}
-
-.flex-container-nemisis{
-  transform: translate(0%,25%);
-  height: 230px;
-  border:1px solid white
-}
-
-.button2{
-  font-size: 20px;
-  padding:10px;
-  height: 20px;
-  transform: translate(0%,-40%);
-}
-
-.para1n{
-  font-size:13px;
-  transform: translate(-6%,-30%);
-  width: 290px;
-  border:0px solid blue;
-  }
-
-.titlenn{
-  font-size:20px;
-  transform: translate(-20%,-250%);
-}
-
-.flex-container-nemesis2{
-  transform: translate(0%,10%);
-}
-
-.title2n{
-  font-size: 30px;
-  transform: translate(0%,-120%);
-}
-
-.para2n{
-  font-size: 20px;
-  transform: translate(0%,0%);
-}
-
-.ext{
-  transform: translate(0%,80%);
-  font-size: 20px;
-  padding:8px;
-  height: 40px;
-}
-
-.int{
-  transform: translate(0%,80%);
-  font-size: 20px;
-  padding:8px;
-  height: 40px;
-}
-
-.int:hover{
-  transform: translate(0%,80%);
-  font-size: 20px;
-  padding:8px;
-  height: 40px;
-  color:black;
-  background-color: white;
-}
-
-.title1n{
-  font-size: 25px;
-  transform: translate(-10%,-150%);
-}
-
-.para1nb{
-  border:0px solid blue;
-  width: 290px;
-  font-size: 11px;
-  transform: translate(-7%,-30%);
-}
-
-}
-
-@media only screen and (max-width: 700px){
-  .box6, .box7{
-    transform: translate(2%,20%);
-  }
-
-  .box4, .box5{
-    border:2px solid white;
-    transform: translate(2%,20%);
-  }
-
-  .car3{
-    transform: translate(25%,10%);
-    border:2px solid rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-  }
-
-  .dropdown{
-    transform: translate(-7%,-40%);
-  }
-
-  .emblem-logo{
-
-    display: flex;
-    border:0px solid blue;
-    flex-direction: column;
-    transform: translate(-1%,0%);
-}
-
-
-  .footer-nav{
-
-    display: flex;
-    border:0px solid rgb(255, 0, 0);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-  .trionl{
-    transform: translate(-3%,0%);
-    width: 100px;
-  }
-
-  .acc, .cart{
-    transform: translate(10%,0%);
-  }
-
-  ul a{
-    position: absolute;
-    font-size: 10px;
-    padding: 0px;
-  }
-
-  ul{
-    transform: translate(-30%,0%);
-  }
-
-  .flex-container-nemisis{
-    transform: translate(0%,25%);
-    height: 230px;
-    border:1px solid white
-  }
-
-  .para1n{
-    font-size:13px;
-    transform: translate(-6%,-30%);
-    width: 290px;
-    border:0px solid blue;
-    }
-
-  .titlenn{
-    font-size:20px;
-    transform: translate(-20%,-250%);
-  }
-
-  .flex-container-nemesis2{
-    transform: translate(0%,10%);
-  }
-
-  .title2n{
-    font-size: 30px;
-    transform: translate(0%,-120%);
-  }
-
-  .para2n{
-    font-size: 20px;
-    transform: translate(0%,0%);
-  }
-
-  .ext{
-    transform: translate(0%,80%);
-    font-size: 20px;
-    padding:8px;
-    height: 40px;
-  }
-
-  .int{
-    transform: translate(0%,80%);
-    font-size: 20px;
-    padding:8px;
-    height: 40px;
-  }
-
-  .title1n{
-    font-size: 25px;
-    transform: translate(-10%,-150%);
-  }
-
-  .button2{
-    font-size: 20px;
-    padding:8px;
-    height: 25px;
-    transform: translate(0%,-80%);
-  }
-
-li{
-  width: 55px;
-  text-align: left;
-  transform: translate(100%,0%);
-}
-
-  .para1nb{
-    border:0px solid blue;
-    width: 290px;
-    font-size: 11px;
-    transform: translate(-7%,-30%);
-  }
-
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px){
 
   .car4{
-  margin-top: 60px;
-  border:2px solid white
+    width: 100%;
   }
-  
-  .dropdown{
-    transform: translate(-7%,-40%);
-  }
-  
-  .trionl{
-    transform: translate(10%,0%);
-    width: 100px;
-  }
-  
-  .acc, .cart{
-    transform: translate(10%,0%);
-  }
-  
-  ul a{
-    position: absolute;
-    font-size: 12px;
-  }
-  
-  ul{
-    transform: translate(-5%,0%);
-  }
-  
-  .car3{
-    transform: translate(10%,10%);
-    border:2px solid rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-  }
-  
-  .box4, .box5{
-    border:2px solid white;
-    transform: translate(0%,20%);
-  }
-  
-  .box1, .box2, .box3{
-    height: 120px;
+
+  .box1{
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
   }
 
   .indexcard1{
-    border:0px solid blue;
-    height: 10px;
-    transform: translate(-6%,-200%);
+    text-align: center;
   }
 
-  .box6, .box7{
-    transform: translate(0%,20%);
+  .para1{
+    width: 100%;
   }
-  
-  .box7{
-    margin-bottom: 100px;
-  }
-  
+
   .title1{
-    font-size: 20px;
-    border:0px solid blue;
-  
+    width: 100%;
   }
-   .para1{
-    font-size: 11px ;
-    border:0px solid blue;
-    width: 240px;
+
+  .img1{
+    width: 100%;
+    order:0
   }
-  
-  .button1{
-    font-size: 11px;
-    transform: translate(0%,-340%);
-    padding-bottom: 5px;
-  }
-  
-  .title2{
-    font-size: 20px;
-  }
-  
-  .para2{
-    font-size: 11px ;
-    border:0px solid blue;
-    width: 240px;
-  }
-  
+
   .indexcard2{
-    transform: translate(10%,-2%);
-  }
-  
-  .title3{
-    font-size: 20px;
-  }
-  
-  .para3{
-    font-size: 11px ;
-
-  }
-  
-  .button3{
-    font-size: 11px;
-    transform: translate(0%,-20%);
-    padding-bottom: 5px;
-  }
-  
-  .indexcard3{
-    transform: translate(-6%,0%);
-    border:0px solid blue
-  }
-  
-  .title7 a{
-    font-size:40px;
-  }
-  
-  .title6 a{
-    font-size:40px;
-  }
-  
-  .title5 a{
-    font-size:40px;
-  }
-  
-  .title4 a{
-    font-size:40px;
+    text-align: center;
   }
 
-  .button1{
-    transform: translate(0%,-370%);
-  }
-  
-    .emblem-logo{
-
-        display: flex;
-        border:0px solid blue;
-        flex-direction: column;
-    }
-  
-  .footer-nav{
-    display: flex;
-    border:0px solid blue;
+  .box2{
+    width: 100%;
     flex-direction: column;
+    height: 100%;
     align-items: center;
-    justify-content: center;
-    transform: translate(-10%,0%);
-  }
-  
-  .privacy-notice{
-    transform: translate(120%,0%);
-  }
-  
-  .copyright{
-    transform: translate(100%,0%);
-  }
-  
-  .trionf{
-    transform: translate(30%,0%);
   }
 
-   li{
-    width: 20px;
-    transform: translate(-10%,0%);
-   }
+  .indexcard2{
+    align-items: center;
+  }
 
-   .button2{
-    font-size: 10px;
+  .para2{
+    width: 100%;
+  }
+
+  .title2{
+    width: 100%;
+  }
+
+  .img2{
+    width: 100%;
+    order:0
+  }
+
+  .emblem-logo{
+    width: 100%;
+  }
+
+  .footer-nav{
+    width: 100%;
+  }
+  
+  .box3{
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+
+  .indexcard3{
+    text-align: center;
+  }
+
+  .para3{
+    width: 100%;
+  }
+
+  .title3{
+    width: 100%;
+  }
+
+  .img3{
+    width: 100%;
+    order:0
+  }
+
+  .car3{
+    align-items: center;
+    width: 100%;
     transform: translate(0%,0%);
-   }
+  }
 
-   .button3{
-    font-size: 10px;
-    transform: translate(0%,0%);
-   }
-
-   .para6{
-    transform: translate(-1%,0%);
-   }
-
-   
-   .para5{
-    transform: translate(-1%,0%);
-   }
-
-   
-   .para4{
-    transform: translate(3%,0%);
-   }
-
-   .dropdown{
-    transform: translate(-10%,-30%);
-   }
 }
-
- 
