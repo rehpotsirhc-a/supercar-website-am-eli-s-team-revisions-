@@ -1346,6 +1346,7 @@ width: 200px;
     margin-top:20px;
     margin-bottom: 30px;
     transform: translate(0%,0%);
+    width: 100%;
   }
 
   .box4, .box5{
@@ -1470,6 +1471,10 @@ width: 200px;
 
   .acc,.cart{
     width: 15px;
+  }
+
+  .box6{
+    height: 100%;
   }
 
 }
