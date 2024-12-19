@@ -1184,8 +1184,12 @@ width: 200px;
 
 @media only screen and (max-width: 800px){
 
-  .car4{
+  .flex-container{
     width: 100%;
+  }
+
+  .car4{
+   width: 100%;
   }
 
   .box1{
@@ -1197,6 +1201,7 @@ width: 200px;
 
   .indexcard1{
     text-align: center;
+    transform: translate(0%,0%);
   }
 
   .para1{
@@ -1225,14 +1230,21 @@ width: 200px;
 
   .indexcard2{
     align-items: center;
+    transform: translate(0%,0%);
   }
 
   .para2{
     width: 100%;
+    transform: translate(0%,0%);
   }
 
   .title2{
     width: 100%;
+    transform: translate(0%,0%);
+  }
+
+  .button2 {
+    transform: translate(0%,0%);
   }
 
   .img2{
@@ -1257,6 +1269,7 @@ width: 200px;
 
   .indexcard3{
     text-align: center;
+    transform: translate(0%,0%);
   }
 
   .para3{
@@ -1269,13 +1282,33 @@ width: 200px;
 
   .img3{
     width: 100%;
-    order:0
+    order:0;
   }
 
   .car3{
     align-items: center;
     width: 100%;
-    transform: translate(0%,0%);
+    margin-top:20px;
+    margin-bottom: 50px;
+    transform: translate(8%,0%);
   }
 
+  .box4, .box5{
+    transform: translate(8.5%,0%);
+    width: 100%;
+  }
+
+  .box6, .box7{
+    transform: translate(8.5%,0%);
+    width: 100%;
+  }
+
+  .emblem-logo{
+    width: 100%;
+    height: 1000px;
+  }
+
+  .footer-nav{
+    transform: translate(0%,0%);
+  }
 }
