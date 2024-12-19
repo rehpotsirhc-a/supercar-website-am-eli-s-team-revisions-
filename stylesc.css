@@ -130,6 +130,7 @@ body{
 .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
    background:rgba(0, 0, 0, 0.742);
    border: 2px solid white;
+
 }
 
 
@@ -150,7 +151,7 @@ body{
   margin-top: 30px; 
   font-size: 18px;
   width: 85%;
-  height: 500px;
+  height: 100%;
   border: 2px solid rgb(255, 255, 255);
   transform: translate(8%,0%);
   justify-content: flex-end;
@@ -171,20 +172,23 @@ body{
   border: 0px solid blue;
   text-align:left;
   align-items: center;
-  transform: translate(-3%,0%);
+  transform: translate(0%,0%);
+  height: 100%;
 }
 
 .para1{
   border:0px solid blue;
   order:1;
   font-size: 35px;
-  margin-bottom:80px;
-  width: 1000px;
+  margin-bottom:20px;
+  width: 100%;
 }
 
 .img1{
   order:2;
   width: 33.3%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .button1{
@@ -227,7 +231,9 @@ body{
   border: 0px solid blue;
   text-align:left;
   align-items: center;
-  transform: translate(15%,0%);
+  transform: translate(2%,0%);
+  height: 100%;
+  width: 100%;
 }
 
 .title2{
@@ -242,9 +248,9 @@ body{
   border:0px solid blue;
   order:1;
   font-size: 35px;
-  width: 800px;
+  width: 100%;
   justify-content: center;
-  transform: translate(10%,0%);
+  margin-bottom:80px;
 }
 
 .img2{
@@ -261,7 +267,9 @@ body{
   border: 0px solid blue;
   text-align:left;
   align-items: center;
-  transform: translate(-20%,0%);
+  transform: translate(2%,0%);
+  height: 100%;
+  width: 100%;
 }
 
 .box3 {
@@ -287,6 +295,7 @@ body{
   border:0px solid blue;
   order:1;
   font-size: 35px;
+  margin-bottom: 80px;
 }
 
 .img3{
@@ -332,10 +341,12 @@ body{
 }
 
 .box4click {
-  margin-top: 30px;
-  border: 1px solid white;
-  padding: 15px 17px;
   font-size: 30px;
+  padding:15px;
+  padding-right: 22px;
+  order:1;
+  border:1px solid white;
+  background-color: rgba(0, 0, 0, 0.236);
 }
 
 .box5click {
@@ -1184,10 +1195,49 @@ width: 200px;
 
 @media only screen and (max-width: 800px){
 
+  flex-container{
+    align-items: center;
+    width: 100%;
+  }
 
+  .trionl{
+    transform: translate(0%,0%);
+  }
+
+  .cart,.acc{
+    transform: translate(-10%,0%);
+  }
+
+  li{
+    width: 50px;
+    text-align: center;
+    transform: translate(0%,0%);
+  }
+
+  li:nth-child(4){
+    width: 50px;
+   height: 20px; 
+  }
+
+  ul{
+    width: 100%;
+    transform: translate(0%,0%);
+  }
+
+  li a { 
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .dropdown{
+    font-size:20px;
+  }
 
   .car4{
    width: 100%;
+   margin-top:65px;
+   border:2px solid white;
+   height: 100%;
   }
 
   .box1{
@@ -1195,11 +1245,13 @@ width: 200px;
     flex-direction: column;
     height: 100%;
     align-items: center;
+    transform: translate(0%,0%);
   }
 
   .indexcard1{
     text-align: center;
     transform: translate(0%,0%);
+    width: 100%;
   }
 
   .para1{
@@ -1224,6 +1276,7 @@ width: 200px;
     flex-direction: column;
     height: 100%;
     align-items: center;
+    transform: translate(0%,0%);
   }
 
   .indexcard2{
@@ -1234,6 +1287,8 @@ width: 200px;
   .para2{
     width: 100%;
     transform: translate(0%,0%);
+    border:0px solid red;
+    height: 100%;
   }
 
   .title2{
@@ -1241,9 +1296,9 @@ width: 200px;
     transform: translate(0%,0%);
   }
 
-  .button2 {
-    transform: translate(0%,0%);
-  }
+ .button2{
+  transform: translate(0%,0%);
+ }
 
   .img2{
     width: 100%;
@@ -1263,6 +1318,7 @@ width: 200px;
     flex-direction: column;
     height: 100%;
     align-items: center;
+    transform: translate(0%,0%);
   }
 
   .indexcard3{
@@ -1285,29 +1341,87 @@ width: 200px;
 
   .car3{
     align-items: center;
-    width: 100%;
+    max-width: 100%;
+    height: 100%;
     margin-top:20px;
-    margin-bottom: 50px;
-    transform: translate(8%,0%);
+    margin-bottom: 30px;
+    transform: translate(0%,0%);
   }
 
   .box4, .box5{
-    transform: translate(8.5%,0%);
+    transform: translate(0%,0%);
     width: 100%;
   }
 
   .box6, .box7{
-    transform: translate(8.5%,0%);
+    transform: translate(0%,0%);
     width: 100%;
   }
 
+  .para5{
+    transform: translate(-1%,0%);
+  }
+
+  .para6{
+    width: 105%;
+    transform: translate(0%,0%);
+    text-align: center;
+  }
+
+  .button7{
+    font-size: 60px;
+    order:1;
+    border:1px solid white;
+    background-color: rgba(0, 0, 0, 0.236);
+  }
+
   .emblem-logo{
-    width: 100%;
-    height: 1000px;
+    transform: translate(0%,0%);
+    border:0px solid red;
+
   }
 
   .footer-nav-section{
     transform: translate(0%,0%);
-    width: 100px;
+    border:0px solid blue;
+
   }
+
+  .footer-nav{
+    transform: translate(-10%,0%);
+    border:0px solid green;
+    flex-direction: column;
+  }
+
+  
+}
+
+@media only screen and (max-width:776px){
+
+  ul li ul li {
+    width: 111%;
+    font-size: 20px;
+    transform: translate(-132%, -104.5%);
+    z-index: 9;
+}
+
+  .car4{
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width:602px){
+
+  .car4{
+    margin-top: 230px;
+  }
+}
+
+@media only screen and (max-width:599.2px){
+
+  .footer-nav{
+    transform: translate(-27%,0%);
+    flex-direction: column;
+  }
+
 }
