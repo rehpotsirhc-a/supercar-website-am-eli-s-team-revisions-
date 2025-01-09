@@ -284,16 +284,15 @@ body{
   .resize0 {
     width: auto;
     height: 470px;
-    margin: 0px 10px 50px 30px;
-    transform: translate(0%,9%);
+    margin: 100px 0px 0px 50px;
     border:2px solid white;
+    
   }
 
   .resize {
     width: auto;
     height: 482px;
-    margin: 0px 10px 50px 30px;
-    transform: translate(0%,9%);
+    margin: 100px 0px 0px 50px;
     border:2px solid white;
   }
   
@@ -319,11 +318,12 @@ h1 {
 .flexbox {
     display: flex;
     font-size: 1.7rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    border:0px solid white
 }
 
 .config-text {
-    max-width: 750px;
+    width: 100%;
     margin-left: 150px;
     margin-top: 22px;
     background-color: rgba(0, 0, 0, 0.616);
@@ -373,11 +373,11 @@ a.config-text {
 .flexicusboxicus {
     display: flex;
     font-size: 1.7rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .configy-texty {
-    max-width: 750px;
+    width: 100%;
     margin-left: 150px;
     margin-top: 22px;
     background-color: rgba(0, 0, 0, 0.616);
