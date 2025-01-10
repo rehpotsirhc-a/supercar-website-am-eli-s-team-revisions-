@@ -301,7 +301,7 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/blackhat.png);
+    background: url(pictures/blackhat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -316,7 +316,7 @@ a {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/redhat.png);
+    background: url(pictures/redhat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%

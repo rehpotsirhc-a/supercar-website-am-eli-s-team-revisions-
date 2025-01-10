@@ -132,10 +132,10 @@ a {
     }
   }
 
-body{
-  background: linear-gradient(black, grey);
-  background-repeat: no-repeat;
-}
+  body{
+    background: linear-gradient(black, grey);
+    background-attachment: fixed ;
+  }
 
   
 * {
@@ -312,6 +312,7 @@ h1 {
     display: flex;
     justify-content: center;
     letter-spacing: 5px;
+    transform: translate(0%,40%);
 }
 
 
@@ -349,6 +350,7 @@ a.config-text {
     background: black;
     margin-left: 100px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .exterior {
@@ -360,7 +362,10 @@ a.config-text {
     margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 50px;
+    border-radius: 4px;
 }
+
+
 
 .getaway {
     margin-bottom: 70px;
@@ -432,6 +437,7 @@ a.exteriorious:hover {
     background: black;
     margin-left: 100px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .exteriorious {
@@ -443,6 +449,7 @@ a.exteriorious:hover {
     margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 50px;
+    border-radius: 4px;
 }
 
 .widowcent {

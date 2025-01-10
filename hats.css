@@ -823,7 +823,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(.vscode/pictures/menhats.png);
+    background: url(pictures/menhats.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
@@ -838,7 +838,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(pictures/bucketmen.png);
+    background: url(pictures/bucketmen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -851,7 +851,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(pictures/beaniemen.png);
+    background: url(pictures/beaniemen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 55%;
@@ -864,7 +864,7 @@ ul li ul li {
     padding: 10px;
     margin: 10px;
     margin-top: 5em;
-    background: url(pictures/trionhoodies.png);
+    background: url(pictures/trionhoodies.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }

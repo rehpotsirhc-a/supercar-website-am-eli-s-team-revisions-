@@ -164,7 +164,7 @@ ul li ul li {
     border: 1px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
-    background: url(pictures/blackw.jpeg);
+    background: url(pictures/blackw.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgba(0, 0, 0, 0.425);
@@ -230,6 +230,7 @@ ul li ul li {
 
 body{
   background: linear-gradient(black, grey);
+  background-attachment: fixed;
 }
 
 .model{
@@ -293,9 +294,6 @@ a{
     transform: translate(21%,20%);
   }
   
-  .box1, .box2, .box3{
-    height: 200px;
-  }
   
   .box6, .box7{
     transform: translate(21%,20%);
