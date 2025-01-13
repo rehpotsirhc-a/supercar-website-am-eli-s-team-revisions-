@@ -837,8 +837,8 @@ a{
   .margining {
     margin-top: 19px;
     margin-bottom: 5px;
-    margin-left: 30px; 
-    margin-right: 30px;
+    /* margin-left: 30px; 
+    margin-right: 30px; */
   }
   
   .contact-margining {
@@ -905,7 +905,6 @@ a{
   }
   
   section.footer-nav {
-    display: flex;
     margin-left: 100px;
   }  
   
@@ -967,4 +966,18 @@ a{
     width: auto;
     height: 700px;
     margin: 0px 150px 50px 100px;
+  }
+
+  section.footer-nav-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .fixy {
+    max-height: fit-content;
+  }
+
+  section.footer-nav-section3 {
+    
   }
