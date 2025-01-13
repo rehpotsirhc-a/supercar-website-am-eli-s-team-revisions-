@@ -407,10 +407,6 @@ body{
   flex-direction: column;
 }
 
-.title1n{
-
-}
-
 .titlenn{
   border:0px solid blue;
 }
@@ -768,10 +764,11 @@ h4 {
 .boxab2 {
   border:1px solid white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 30px; 
   font-size: 18px;
   width: 85%;
+  align-items: center;
   transform: translate(8%,0%);
   background-color: rgba(0, 0, 0, 0.296);
 }
@@ -797,8 +794,19 @@ h4 {
 }
 
 .imgab2{
+  margin-top: 30px;
   order:2;
   width: 33.3%;
+}
+
+.para01{
+  font-size: 30px;
+  order:3
+}
+
+.para02{
+  font-size: 30px;
+  order:4;
 }
 
 .theteam{
@@ -1110,7 +1118,8 @@ width: 200px;
   text-align: center;
   font-size: 40px;
   width: 400px;
-  padding:10px
+  padding:10px;
+  color:black
 }
 
 .confighist{
@@ -1120,7 +1129,8 @@ width: 200px;
   text-align: center;
   font-size: 40px;
   width: 800px;
-  padding:10px
+  padding:10px;
+  transform: translate(0%,40%);
 }
 
 .placea{

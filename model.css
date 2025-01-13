@@ -23,7 +23,7 @@ nav {
   position: fixed;
   margin: 0;
   padding: top 20px;
-  transform: translate(-8px,-22px);
+  transform: translate(-8px,-21px);
   z-index: 9;
 }
 
@@ -32,23 +32,20 @@ ul {
   list-style: none;
   margin: 0;
   padding-top: 6px;
-  transform: translate(-0%, -0%)
+  transform: translate(-0%, -0%);
+  margin-left: 40px;
 }
 
 .trionl{
-  margin-top:3px;
-
+  margin-top:6px;
 }
 
-
-.cart{
-  margin-right: 15px
-}
 .cart, .acc{
 
   margin-top:6px;
 
 }
+
 
 
 li {
@@ -230,6 +227,10 @@ ul li ul li {
 
 body{
   background: linear-gradient(black, grey);
+  background-attachment: fixed;
+}
+
+main{
   background-attachment: fixed;
 }
 
