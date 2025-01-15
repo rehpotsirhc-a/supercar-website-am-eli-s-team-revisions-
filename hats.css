@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: white;
 }
 
 nav {
@@ -12,7 +13,7 @@ nav {
 }
 
 
-.navigationheader {
+.top-nav {
   display: flex;
   background-color:rgb(0, 0, 0) ;
   border-bottom: 1px solid rgb(255, 255, 255);
@@ -31,23 +32,10 @@ ul {
   list-style: none;
   margin: 0;
   padding-top: 6px;
-  transform: translate(-0%, -0%)
+  transform: translate(-30%, -0%);
+  margin-left: 40px;
 }
 
-.trionl{
-  margin-top:3px;
-
-}
-
-
-.cart{
-  margin-right: 15px
-}
-.cart, .acc{
-
-  margin-top:6px;
-
-}
 
 
 li {
@@ -62,8 +50,7 @@ li {
 }
   
 li a {
-  color: #ffffff;
-  z-index: 99;
+  color: #fff;
 }
 
 li:hover,
@@ -90,7 +77,7 @@ ul li ul:hover,
 ul li ul:focus {
   visibility: visible;
   opacity: 1;
-  display: block;
+  display: block
 }
 
 ul li ul li {
@@ -99,13 +86,22 @@ ul li ul li {
   transform: translate(-26%, -0%);
   z-index: 9999;
 }
+
 .dropdown{
   position:absolute;
   background: rgb(121, 121, 121, 0);
   margin-top: 53px;
-  z-index: 0;
+  transform:translate(-51%,0%);
 }
 
+.trionl{
+  margin-top: 6px;
+  transform: translate(-200%,0%);
+}
+
+.cart, .acc{
+  transform: translate(1100%,10%);
+}
 
 @media only screen and (max-width: 800px) {
 

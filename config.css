@@ -46,7 +46,6 @@ a {
   
   }
   
-  
   li {
     color: #fff;
     background: rgb(0, 0, 0);
@@ -99,8 +98,8 @@ a {
     position:absolute;
     background: rgb(121, 121, 121, 0);
     margin-top: 53px;
+    transform:translate(-51%,0%);
   }
-  
   
   @media screen and (min-width:1700px) and (max-width:20000px){
   

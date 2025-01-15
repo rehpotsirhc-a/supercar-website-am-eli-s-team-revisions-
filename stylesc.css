@@ -1,116 +1,105 @@
 a {
-    text-decoration: none;
-  }
-  
+  text-decoration: none;
+  color: white;
+}
+
 nav {
-    display: flex;
-    background-color:rgb(0, 0, 0) ;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    flex-direction: row;
-    justify-content: center;
-    width:100%;
-  }
+  display: flex;
+  background-color:rgb(0, 0, 0) ;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+}
 
 
-  .navigationheader {
-    display: flex;
-    background-color:rgb(0, 0, 0) ;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    flex-direction: row;
-    justify-content: center;
-    width:100%;
-    position: fixed;
-    margin: 0;
-    transform: translate(-8px,-10px);
-    z-index: 9;
-  }
+.top-nav {
+  display: flex;
+  background-color:rgb(0, 0, 0) ;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+  position: fixed;
+  margin: 0;
+  padding: top 20px;
+  transform: translate(-8px,-10px);
+  z-index: 9;
+}
 
+ul {
+  background: rgb(40, 38, 35, 0);
+  list-style: none;
+  margin: 0;
+  padding-top: 6px;
+  transform: translate(-25%, -0%);
+  margin-left: 40px;
+}
 
-  ul {
-    background: rgb(40, 38, 35, 0);
-    list-style: none;
-    margin: 0;
-    padding-top: 6px;
-    transform: translate(-15%, -0%)
-  }
-  
-  .trionl{
-    margin-top:3px;
-  
-  }
-  
-  
-  .cart{
-    margin-right: 15px
-  }
-  .cart, .acc{
-  
-    margin-top:6px;
-  
-  }
-  
-  
-  li {
-    color: #fff;
-    background: rgb(0, 0, 0);
-    display: inline-block;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-    transition-duration: 0.5s;
-    font-size: 20px;
-  }
-    
-  li a {
-    color: #fff;
-  }
-  
-  li:hover,
-  li:focus-within {
-    background: rgb(186, 186, 186);
-  }
-  
-  ul li ul {
-    background: rgb(40, 38, 35);
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-    top:0;
-  }
-  
-  ul li:hover > ul,
-  ul li:focus-within > ul,
-  ul li ul:hover,
-  ul li ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: block
-  }
-  
-  ul li ul li {
-    width: 111%;
-    font-size: 20px;
-    transform: translate(-26%, -0%);
-    z-index: 9999;
-  }
-  .dropdown{
-    position:absolute;
-    background: rgb(121, 121, 121, 0);
-    margin-top: 53px;
-  }
-
-  
 .trionl{
+  margin-top:6px;
   transform: translate(-200%,0%);
 }
 
-.acc, .cart{
-  transform: translate(1140%,0%);
+.cart, .acc{
+  margin-top:6px;
+  transform: translate(1150%,-4%);
+}
+
+
+
+li {
+  color: #fff;
+  background: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  font-size: 20px;
+}
+  
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+  background: rgb(186, 186, 186);
+}
+
+ul li ul {
+  background: rgb(40, 38, 35);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+  top:0;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+  width: 111%;
+  font-size: 20px;
+  transform: translate(-26%, -0%);
+  z-index: 9999;
+}
+.dropdown{
+  position:absolute;
+  background: rgb(121, 121, 121, 0);
+  margin-top: 53px;
 }
 
 
@@ -246,7 +235,7 @@ body{
   border:0px solid blue;
   order:1;
   font-size: 35px;
-  width: 100%;
+  width: 98%;
   justify-content: center;
   margin-bottom:80px;
 }
@@ -374,7 +363,8 @@ body{
 }
 
 .car3{
-  transform: translate(12%, 4.8%)
+  transform: translate(12%, 4.8%);
+  border:0px solid white
 }
 
 .car5{
@@ -732,7 +722,7 @@ h4 {
 /*footer end*/
 
 .flex-container-ab {
-  border:0px solid #0051ff;
+  border:px solid #0051ff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1080,7 +1070,7 @@ width: 200px;
   display:flex;
   flex-direction: column;
   margin:60px;
-  border: 1px solid white;
+  border: 2px solid white;
   transform: translate(-40%,17%);
   width: 300px;
   height: 400px;
@@ -1109,17 +1099,19 @@ width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  transform: translate(0%,-10%);
 }
 
 .ord{
   background-color: white;
   border-radius: 4px;
-  border:1px solid black;
+  border:2px solid black;
   text-align: center;
   font-size: 40px;
   width: 400px;
   padding:10px;
-  color:black
+  color:rgb(0, 0, 0)
 }
 
 .confighist{
